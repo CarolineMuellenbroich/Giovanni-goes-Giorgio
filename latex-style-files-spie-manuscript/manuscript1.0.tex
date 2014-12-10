@@ -4,12 +4,6 @@
 %  based on the class file spieman.cls, which requires 
 %  the following standard packages:  times.sty, float.sty, 
 %  ifthen.sty, cite.sty, color.sty, setspace.sty
-%
-%  Special instructions are included in this file after the
-%  symbol %>>>>
-%  Numerous commands are commented out, but included to show how
-%  to effect various options, for example, to print page numbers, etc.
-%  This LaTeX source file is composed for LaTeX2e.
 
 %  The following commands have been added in the SPIE class 
 %  file (spieman.cls) and may not be understood in other classes:
@@ -28,8 +22,7 @@
 %  The following command loads a graphics package to include images 
 %  in the document. It may be necessary to specify a DVI driver option,
 %  for example, [dvips], but that may be inappropriate for some LaTeX installations. 
-%%\usepackage{amsmath}  %>>> for AMS math formatting, 
-%  including bold Greek symbols
+ 
 \usepackage[]{graphicx}
 \usepackage{setspace}
 \usepackage{tocloft}
@@ -50,7 +43,7 @@
 %\usepackage{textcomp}
 %\usepackage{verbatim} 
 %\usepackage{mathpazo}
-%\usepackage{amsmath}
+%\usepackage{amsmath} %>>> for AMS math formatting including bold Greek symbols
 %\usepackage{mathtools}
 \usepackage{amssymb}
 \usepackage{accents}
@@ -66,21 +59,15 @@
 %\usepackage{multirow}
 %\usepackage{caption}
 
-\title{Working title: the most amaz-zing SPIM and how we built it} 
+\title{Working title: the most amaz-zing SPIM and how we built it. Authors currently alphabetical.} 
 
-%>>>> The author is responsible for formatting the 
-%  author list and their affiliations.  Use \\ to force linebreaks.
-%  The correspondence between each author and his/her address
-%  can be indicated with a superscript, 
-%  which is easily obtained with \supscr{}.
-%>>>> After the abstract, the author must include
-%  a list of keywords and contact information for the corresponding author.
-
-\author{First Author,\supscr{a} Second Author,\supscr{a} Third Author,\supscr{b} Fourth Author\supscr{a,b}}
+\author{Irene Costantini,\supscr{a} Giulio Iannello,\supscr{d} M. Caroline M\"{u}llenbroich,\supscr{a} Leonardo Onofri,\supscr{d} Francesco S. Pavone,\supscr{a,b,c} Leonardo Sacconi,\supscr{b,a} Ludovico Silvestri, \supscr{a} Marcel Van t'Hoff\supscr{x}}
 
 \affiliation{\supscrsm{a}European Laboratory for Non-linear Spectroscopy, University of Florence, Via Nello Carrara,1, Sesto Fiorentino (Firenze), Italy, 50019\\
 \supscrsm{b}National Institute of Optics, National Research Council, Italy\\
-\supscrsm{c}Department of Physics and Astronomy, University of Florence, Via Giovanni Sansone, 1, Sesto Fiorentino (Firenze), Italy, 50019}
+\supscrsm{c}Department of Physics and Astronomy, University of Florence, Via Giovanni Sansone, 1, Sesto Fiorentino (Firenze), Italy, 50019\\
+\supscrsm{d}Integrated Research Centre, University Campus Bio-Medico of Rome, Italy\\
+\supscrsm{x}Distrio, Murmex}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
 \renewcommand{\cftdotsep}{\cftnodots}
@@ -106,27 +93,43 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Introduction}
 \label{sect:intro}  % \label{} allows reference to this section
-Here will be an introduction to whole brain imaging the challenges it is facing and how light sheet microscopy is addressing those challenges. Points to raise: briefly optical clearing, big data generation and management, image quality degradation necessitating rolling shutter, refocusing?, double sided illumination, maybe Bessel beam illumination, etc. 
+Here will be an introduction to whole brain imaging the challenges it is facing and how light sheet microscopy is addressing those challenges. Points to raise: briefly optical clearing, big data generation and management, image quality degradation necessitating rolling shutter, refocusing?, The next parts will be in clear sections so that we can divide them better between us if necessary. Can be merged later on if we wish so.
 
-\section{Optical Setup}
-\subsection{Optical path}
-Here we describe our optical setup, the components we use etc
+Basic principles of light sheet microscopy: light efficiency/reduced phototoxicity, speed, true optical sectioning, resolution etc.
 
-\subsection{Alignment}
-and maybe also some details on who we aligned everything. we have our sample mirror with the hole in it, the shear plate, periscopes etc...
+\section{Optical clearing}
+CLARITY and TDE stuff, get contribution/input from Irene.
 
-\subsection{Sample chamber}
-the sample chamber is probably of particular interest, how was it designed and made, how do we protect the objectives, stop it from leaking, soft connections and hard connections. 
+\section{Optomechanics}
+	\subsection{Optical path}
+Here we describe our optical setup, the components we use etc. 
+		\subsubsection{illumination}
+		lasers, AOTF, Pockels, Bessel, double sided, digitally scanned, objectives
+		\subsubsection{detection}
+		objective, camera, rolling shutter. Use references\cite{Silvestri2012} to old SPIM.
+		\subsubsection{Sample mounting and rotation}
+		the sample chamber is probably of particular interest, how was it designed and made, how do we protect the objectives, stop it from leaking, soft connections and hard connections. how do we rotate and move the sample within the chamber. in the end, this is where the magic happens....
 
+	\subsection{Alignment}
+and maybe also some details on how we aligned everything. we have our sample mirror with the hole in it, the shear plate, periscopes etc...
 
+	
 \section{Software Management}
-Here we describe all things murmex, components and their communication/ interaction. how is the rolling shutter timed with galvos, triggers and clocks etc. 
+Here we describe all things software control and communication, components and their interaction. how is the rolling shutter timed with galvos, triggers and clocks etc. Get in touch early with Marcel to ask him and write/contribute to this paragraph.
 
 \section{Data Management}
-Here we describe our data pipeline: data production rate as function of frame rate and image size, stack size, tomo size, SSD space, transfer to NAS digital downsampling, and tiff compression, NAS to CINECA, 10 gigabit connection etc.
+	\subsection{Pipeline}
+	Here we describe our data pipeline: data production rate as function of frame rate and image size, stack size, tomo size, SSD space, transfer to NAS digital downsampling, and tiff compression, Leo's python script, NAS to CINECA, 10 gigabit connection etc.
+
+	\subsection{stitching and visualisation}
+	Terastitcher and Teraviewer
+
+	\subsection{example for postprocessing: Automated cell counting}
+	See Reference\cite{Frasconi2014} for details.
+
 
 \section{Data}
-some pretty images to prove that it all worked. 
+some pretty images to prove that it all worked.
 
 \section{Conclusion}
 summary
@@ -171,7 +174,10 @@ Human Brain Project tutta la vita.
 \bibliographystyle{spiejour}   %>>>> makes bibtex use spiejour.bst
 \begin{thebibliography}{0}
 
-\bibitem{Silvestri2012} Silvestri, L., Bria, A., Sacconi, L., Iannello, G. \& Pavone, F. S., XY. 	\emph{Opt Express} \textbf{20}, 20582-20598 (2012).
+\bibitem{Silvestri2012} Silvestri, L., Bria, A., Sacconi, L., Iannello, G. \& Pavone, F. S. 	\emph{Opt Express} \textbf{20}, 20582-20598 (2012).
+
+\bibitem{Frasconi2014} Frasconi, P., Silvestri, L., Soda, P., Cortini, R., L., Pavone, F. S., \& Iannello, G. 	\emph{Bioinformatics} \textbf{30}, i587-i593 (2014).
+
 
 \end{thebibliography}
 

@@ -1,7 +1,9 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.7.2)  9 DEC 2014 13:06
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.7.2)  10 DEC 2014 12:45
 entering extended mode
 **manuscript1.0.tex
-(E:\LENS\Neurophotonics\latex-style-files-spie-manuscript\manuscript1.0.tex
+
+(C:\Users\Caroline\Documents\GitHub\Giovanni-goes-Giorgio\latex-style-files-spi
+e-manuscript\manuscript1.0.tex
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -13,7 +15,9 @@ german-x-2013-05-26, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
 ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
 an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
 ishmax, welsh, loaded.
-(E:\LENS\Neurophotonics\latex-style-files-spie-manuscript\spieman.cls
+
+(C:\Users\Caroline\Documents\GitHub\Giovanni-goes-Giorgio\latex-style-files-spi
+e-manuscript\spieman.cls
 Document Class: spieman 2006/09/27 v1.00 SPIE manuscript class
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\article.cls"
 Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
@@ -342,27 +346,29 @@ slashbox style by K.Yasuoka, May 1993.
 LaTeX Warning: Unused global option(s):
     [12pt].
 
-(E:\LENS\Neurophotonics\latex-style-files-spie-manuscript\manuscript1.0.aux)
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 89.
-LaTeX Font Info:    ... okay on input line 89.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 89.
-LaTeX Font Info:    ... okay on input line 89.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 89.
-LaTeX Font Info:    ... okay on input line 89.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 89.
-LaTeX Font Info:    ... okay on input line 89.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 89.
-LaTeX Font Info:    ... okay on input line 89.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 89.
-LaTeX Font Info:    ... okay on input line 89.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 89.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 89.
+
+(C:\Users\Caroline\Documents\GitHub\Giovanni-goes-Giorgio\latex-style-files-spi
+e-manuscript\manuscript1.0.aux)
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 76.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 76.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 89.
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 89.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 76.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ot1ptm.fd"
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
@@ -390,93 +396,57 @@ Package caption Info: End \AtBeginDocument code.
 ptm-font_in_spiemancls
 12pt
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <16> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 90.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 77.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 90.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 77.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 90.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 77.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 93.
-LaTeX Font Info:    Try loading font information for U+wasy on input line 101.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 80.
+LaTeX Font Info:    Try loading font information for U+wasy on input line 88.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\wasysym\uwasy.fd"
 File: uwasy.fd 2003/10/30 v2.0 Wasy-2 symbol font definitions
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 101.
+LaTeX Font Info:    Try loading font information for U+msa on input line 88.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 101.
+LaTeX Font Info:    Try loading font information for U+msb on input line 88.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-Package epstopdf Info: Source file: <mcr3b.eps>
-(epstopdf)                    date: 2001-08-18 17:39:20
-(epstopdf)                    size: 14236 bytes
-(epstopdf)             Output file: <mcr3b-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-12-09 12:43:32
-(epstopdf)                    size: 7349 bytes
-(epstopdf)             Command: <epstopdf --outfile=mcr3b-eps-converted-to.pdf 
-mcr3b.eps>
-(epstopdf)             \includegraphics on input line 118.
-Package epstopdf Info: Output file is already uptodate.
+) [1
 
-<mcr3b-eps-converted-to.pdf, id=1, 216.81pt x 215.80624pt>
-File: mcr3b-eps-converted-to.pdf Graphic file (type pdf)
-
-<use mcr3b-eps-converted-to.pdf>
-Package pdftex.def Info: mcr3b-eps-converted-to.pdf used on input line 118.
-(pdftex.def)             Requested size: 157.22125pt x 156.49014pt.
-Package epstopdf Info: Source file: <fig2.eps>
-(epstopdf)                    date: 2013-09-27 13:09:18
-(epstopdf)                    size: 1703718 bytes
-(epstopdf)             Output file: <fig2-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-12-09 12:43:35
-(epstopdf)                    size: 34965 bytes
-(epstopdf)             Command: <epstopdf --outfile=fig2-eps-converted-to.pdf f
-ig2.eps>
-(epstopdf)             \includegraphics on input line 130.
-Package epstopdf Info: Output file is already uptodate.
-
-<fig2-eps-converted-to.pdf, id=2, 610.28pt x 301.125pt>
-File: fig2-eps-converted-to.pdf Graphic file (type pdf)
-
-<use fig2-eps-converted-to.pdf>
-Package pdftex.def Info: fig2-eps-converted-to.pdf used on input line 130.
-(pdftex.def)             Requested size: 317.16118pt x 156.49014pt.
- [1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}
-
- <E:/LENS/Neurophotonics/latex-style-files-spie-manuscript/mcr3b-eps-converted-
-to.pdf>]
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}] [2]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 159.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 178.
 
-(E:\LENS\Neurophotonics\latex-style-files-spie-manuscript\manuscript1.0.lof)
+(C:\Users\Caroline\Documents\GitHub\Giovanni-goes-Giorgio\latex-style-files-spi
+e-manuscript\manuscript1.0.lof)
 \tf@lof=\write4
 
-(E:\LENS\Neurophotonics\latex-style-files-spie-manuscript\manuscript1.0.lot)
+(C:\Users\Caroline\Documents\GitHub\Giovanni-goes-Giorgio\latex-style-files-spi
+e-manuscript\manuscript1.0.lot)
 \tf@lot=\write5
-
-[2 <E:/LENS/Neurophotonics/latex-style-files-spie-manuscript/fig2-eps-converted
--to.pdf>]
-(E:\LENS\Neurophotonics\latex-style-files-spie-manuscript\manuscript1.0.aux) ) 
+ [3]
+(C:\Users\Caroline\Documents\GitHub\Giovanni-goes-Giorgio\latex-style-files-spi
+e-manuscript\manuscript1.0.aux) ) 
 Here is how much of TeX's memory you used:
- 4914 strings out of 493921
- 71865 string characters out of 3147274
- 132855 words of memory out of 3000000
- 8066 multiletter control sequences out of 15000+200000
- 27469 words of font info for 71 fonts, out of 3000000 for 9000
+ 4900 strings out of 493921
+ 71988 string characters out of 3147274
+ 131855 words of memory out of 3000000
+ 8054 multiletter control sequences out of 15000+200000
+ 29054 words of font info for 73 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 44i,12n,43p,409b,412s stack positions out of 5000i,500n,10000p,200000b,50000s
-{
-C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program Files/M
-iKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
-ype1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/ut
-mri8a.pfb>
-Output written on manuscript1.0.pdf (2 pages, 84448 bytes).
+ 44i,5n,43p,514b,180s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/f
+ontname/8r.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C
+:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/M
+iKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
+Output written on manuscript1.0.pdf (3 pages, 53693 bytes).
 PDF statistics:
- 31 PDF objects out of 1000 (max. 8388607)
+ 25 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 11 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
