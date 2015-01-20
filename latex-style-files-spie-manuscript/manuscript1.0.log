@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.7.2)  15 JAN 2015 09:25
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.7.2)  16 JAN 2015 17:39
 entering extended mode
 **manuscript1.0.tex
 
@@ -489,28 +489,28 @@ LaTeX Warning: Unused global option(s):
 
 (C:\Users\Caroline\Documents\GitHub\Giovanni-goes-Giorgio\latex-style-files-spi
 e-manuscript\manuscript1.0.aux)
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 89.
-LaTeX Font Info:    ... okay on input line 89.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 89.
-LaTeX Font Info:    ... okay on input line 89.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 89.
-LaTeX Font Info:    ... okay on input line 89.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 89.
-LaTeX Font Info:    ... okay on input line 89.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 89.
-LaTeX Font Info:    ... okay on input line 89.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 89.
-LaTeX Font Info:    ... okay on input line 89.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 89.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 89.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 75.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 75.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 89.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 89.
-LaTeX Font Info:    ... okay on input line 89.
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 89.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 75.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ot1ptm.fd"
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
@@ -538,7 +538,7 @@ Package caption Info: hyperref package is loaded.
 Package caption Info: rotating package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \AtBeginShipoutBox=\box33
-Package hyperref Info: Link coloring ON on input line 89.
+Package hyperref Info: Link coloring ON on input line 75.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
@@ -547,9 +547,9 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count127
 )
-LaTeX Info: Redefining \ref on input line 89.
-LaTeX Info: Redefining \pageref on input line 89.
-LaTeX Info: Redefining \nameref on input line 89.
+LaTeX Info: Redefining \ref on input line 75.
+LaTeX Info: Redefining \pageref on input line 75.
+LaTeX Info: Redefining \nameref on input line 75.
 
 (C:\Users\Caroline\Documents\GitHub\Giovanni-goes-Giorgio\latex-style-files-spi
 e-manuscript\manuscript1.0.out)
@@ -560,53 +560,75 @@ e-manuscript\manuscript1.0.out)
 ptm-font_in_spiemancls
 12pt
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <16> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 91.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 77.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 91.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 77.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 91.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 77.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 93.
-LaTeX Font Info:    Try loading font information for U+wasy on input line 101.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 79.
+LaTeX Font Info:    Try loading font information for U+wasy on input line 87.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\wasysym\uwasy.fd"
 File: uwasy.fd 2003/10/30 v2.0 Wasy-2 symbol font definitions
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 101.
+LaTeX Font Info:    Try loading font information for U+msa on input line 87.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 101.
+LaTeX Font Info:    Try loading font information for U+msb on input line 87.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
 {C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
-Package epstopdf Info: Source file: <Panel1.eps>
-(epstopdf)                    date: 2015-01-13 09:40:25
-(epstopdf)                    size: 9035127 bytes
-(epstopdf)             Output file: <Panel1-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-01-13 09:40:59
-(epstopdf)                    size: 275347 bytes
-(epstopdf)             Command: <epstopdf --outfile=Panel1-eps-converted-to.pdf
- Panel1.eps>
-(epstopdf)             \includegraphics on input line 120.
+Package epstopdf Info: Source file: <PanelSampel.eps>
+(epstopdf)                    date: 2015-01-15 14:47:25
+(epstopdf)                    size: 2910362 bytes
+(epstopdf)             Output file: <PanelSampel-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-01-15 15:08:41
+(epstopdf)                    size: 192382 bytes
+(epstopdf)             Command: <epstopdf --outfile=PanelSampel-eps-converted-t
+o.pdf PanelSampel.eps>
+(epstopdf)             \includegraphics on input line 105.
 Package epstopdf Info: Output file is already uptodate.
 
-<Panel1-eps-converted-to.pdf, id=82, 1506.62875pt x 544.0325pt>
-File: Panel1-eps-converted-to.pdf Graphic file (type pdf)
+<PanelSampel-eps-converted-to.pdf, id=66, 1499.6025pt x 522.95375pt>
+File: PanelSampel-eps-converted-to.pdf Graphic file (type pdf)
 
-<use Panel1-eps-converted-to.pdf>
-Package pdftex.def Info: Panel1-eps-converted-to.pdf used on input line 120.
-(pdftex.def)             Requested size: 469.75499pt x 169.61957pt.
+<use PanelSampel-eps-converted-to.pdf>
+Package pdftex.def Info: PanelSampel-eps-converted-to.pdf used on input line 10
+5.
+(pdftex.def)             Requested size: 469.75499pt x 163.81364pt.
 
-Overfull \hbox (12.0pt too wide) in paragraph at lines 119--122
+Overfull \hbox (12.0pt too wide) in paragraph at lines 104--107
+ [] 
+ []
+
+Package epstopdf Info: Source file: <NuPanel1.eps>
+(epstopdf)                    date: 2015-01-16 10:15:05
+(epstopdf)                    size: 6513361 bytes
+(epstopdf)             Output file: <NuPanel1-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-01-16 10:45:21
+(epstopdf)                    size: 233512 bytes
+(epstopdf)             Command: <epstopdf --outfile=NuPanel1-eps-converted-to.p
+df NuPanel1.eps>
+(epstopdf)             \includegraphics on input line 121.
+Package epstopdf Info: Output file is already uptodate.
+<NuPanel1-eps-converted-to.pdf, id=67, 1294.8375pt x 544.0325pt>
+File: NuPanel1-eps-converted-to.pdf Graphic file (type pdf)
+
+<use NuPanel1-eps-converted-to.pdf>
+Package pdftex.def Info: NuPanel1-eps-converted-to.pdf used on input line 121.
+(pdftex.def)             Requested size: 469.75499pt x 197.37068pt.
+
+Overfull \hbox (12.0pt too wide) in paragraph at lines 120--123
  [] 
  []
 
 [2 <C:/Users/Caroline/Documents/GitHub/Giovanni-goes-Giorgio/latex-style-files-
-spie-manuscript/Panel1-eps-converted-to.pdf>]
+spie-manuscript/PanelSampel-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <Panel2.eps>
 (epstopdf)                    date: 2015-01-09 13:00:34
 (epstopdf)                    size: 2594588 bytes
@@ -615,125 +637,72 @@ Package epstopdf Info: Source file: <Panel2.eps>
 (epstopdf)                    size: 487302 bytes
 (epstopdf)             Command: <epstopdf --outfile=Panel2-eps-converted-to.pdf
  Panel2.eps>
-(epstopdf)             \includegraphics on input line 142.
+(epstopdf)             \includegraphics on input line 140.
 Package epstopdf Info: Output file is already uptodate.
 
-<Panel2-eps-converted-to.pdf, id=99, 1126.2075pt x 931.48pt>
+<Panel2-eps-converted-to.pdf, id=91, 1126.2075pt x 931.48pt>
 File: Panel2-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Panel2-eps-converted-to.pdf>
-Package pdftex.def Info: Panel2-eps-converted-to.pdf used on input line 142.
+Package pdftex.def Info: Panel2-eps-converted-to.pdf used on input line 140.
 (pdftex.def)             Requested size: 469.75499pt x 388.53264pt.
 
-Overfull \hbox (12.0pt too wide) in paragraph at lines 141--144
+Overfull \hbox (12.0pt too wide) in paragraph at lines 139--142
  [] 
  []
 
-[3] [4 <C:/Users/Caroline/Documents/GitHub/Giovanni-goes-Giorgio/latex-style-fi
-les-spie-manuscript/Panel2-eps-converted-to.pdf>] [5]
+[3 <C:/Users/Caroline/Documents/GitHub/Giovanni-goes-Giorgio/latex-style-files-
+spie-manuscript/NuPanel1-eps-converted-to.pdf>] [4 <C:/Users/Caroline/Documents
+/GitHub/Giovanni-goes-Giorgio/latex-style-files-spie-manuscript/Panel2-eps-conv
+erted-to.pdf>] [5]
 Package epstopdf Info: Source file: <Panel3.eps>
-(epstopdf)                    date: 2015-01-13 13:00:18
-(epstopdf)                    size: 6327376 bytes
+(epstopdf)                    date: 2015-01-16 14:35:39
+(epstopdf)                    size: 6319552 bytes
 (epstopdf)             Output file: <Panel3-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-01-13 14:19:43
-(epstopdf)                    size: 265876 bytes
+(epstopdf)                    date: 2015-01-16 14:40:25
+(epstopdf)                    size: 271887 bytes
 (epstopdf)             Command: <epstopdf --outfile=Panel3-eps-converted-to.pdf
  Panel3.eps>
-(epstopdf)             \includegraphics on input line 164.
+(epstopdf)             \includegraphics on input line 172.
 Package epstopdf Info: Output file is already uptodate.
 
-<Panel3-eps-converted-to.pdf, id=125, 1502.61375pt x 587.19376pt>
+<Panel3-eps-converted-to.pdf, id=124, 1541.76pt x 573.14125pt>
 File: Panel3-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Panel3-eps-converted-to.pdf>
-Package pdftex.def Info: Panel3-eps-converted-to.pdf used on input line 164.
-(pdftex.def)             Requested size: 469.75499pt x 183.56927pt.
+Package pdftex.def Info: Panel3-eps-converted-to.pdf used on input line 172.
+(pdftex.def)             Requested size: 469.75499pt x 174.62854pt.
 
-Overfull \hbox (12.0pt too wide) in paragraph at lines 163--166
+Overfull \hbox (12.0pt too wide) in paragraph at lines 171--174
  [] 
  []
 
 [6 <C:/Users/Caroline/Documents/GitHub/Giovanni-goes-Giorgio/latex-style-files-
 spie-manuscript/Panel3-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <Panel4.eps>
-(epstopdf)                    date: 2015-01-13 15:52:25
-(epstopdf)                    size: 949076 bytes
+(epstopdf)                    date: 2015-01-16 12:56:06
+(epstopdf)                    size: 932020 bytes
 (epstopdf)             Output file: <Panel4-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-01-13 17:15:01
-(epstopdf)                    size: 325531 bytes
+(epstopdf)                    date: 2015-01-16 12:56:26
+(epstopdf)                    size: 321785 bytes
 (epstopdf)             Command: <epstopdf --outfile=Panel4-eps-converted-to.pdf
  Panel4.eps>
-(epstopdf)             \includegraphics on input line 177.
+(epstopdf)             \includegraphics on input line 185.
 Package epstopdf Info: Output file is already uptodate.
 
-<Panel4-eps-converted-to.pdf, id=135, 1755.55875pt x 576.1525pt>
+<Panel4-eps-converted-to.pdf, id=140, 1755.55875pt x 576.1525pt>
 File: Panel4-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Panel4-eps-converted-to.pdf>
-Package pdftex.def Info: Panel4-eps-converted-to.pdf used on input line 177.
+Package pdftex.def Info: Panel4-eps-converted-to.pdf used on input line 185.
 (pdftex.def)             Requested size: 469.75499pt x 154.16542pt.
 
-Overfull \hbox (12.0pt too wide) in paragraph at lines 176--179
+Overfull \hbox (12.0pt too wide) in paragraph at lines 184--187
  [] 
  []
 
 [7 <C:/Users/Caroline/Documents/GitHub/Giovanni-goes-Giorgio/latex-style-files-
 spie-manuscript/Panel4-eps-converted-to.pdf>]
-Package epstopdf Info: Source file: <connectivity.eps>
-(epstopdf)                    date: 2015-01-09 17:36:23
-(epstopdf)                    size: 476919 bytes
-(epstopdf)             Output file: <connectivity-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-01-09 17:37:19
-(epstopdf)                    size: 76515 bytes
-(epstopdf)             Command: <epstopdf --outfile=connectivity-eps-converted-
-to.pdf connectivity.eps>
-(epstopdf)             \includegraphics on input line 192.
-Package epstopdf Info: Output file is already uptodate.
-
-<connectivity-eps-converted-to.pdf, id=148, 1287.81125pt x 508.90125pt>
-File: connectivity-eps-converted-to.pdf Graphic file (type pdf)
-
-<use connectivity-eps-converted-to.pdf>
-Package pdftex.def Info: connectivity-eps-converted-to.pdf used on input line 1
-92.
-(pdftex.def)             Requested size: 469.75499pt x 185.63481pt.
-
-Overfull \hbox (12.0pt too wide) in paragraph at lines 191--194
- [] 
- []
-
-[8 <C:/Users/Caroline/Documents/GitHub/Giovanni-goes-Giorgio/latex-style-files-
-spie-manuscript/connectivity-eps-converted-to.pdf>]
-Overfull \hbox (505.47272pt too wide) in paragraph at lines 228--231
-\OML/cmm/m/it/12 number[]f[]rames; wheredatastorageistheIDoftherecipient; total
-[]ovie[]izeisthenameoftheparametertobeupdatedandxres; yresandnumber[]f[]ramesar
-ethenamesofparametersofthesender\OT1/cmr/m/n/12 )$\OT1/ptm/m/n/12 .
- []
-
-[9]
-Package epstopdf Info: Source file: <DataFlow.eps>
-(epstopdf)                    date: 2015-01-13 17:14:46
-(epstopdf)                    size: 1243129 bytes
-(epstopdf)             Output file: <DataFlow-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-01-13 17:15:03
-(epstopdf)                    size: 535425 bytes
-(epstopdf)             Command: <epstopdf --outfile=DataFlow-eps-converted-to.p
-df DataFlow.eps>
-(epstopdf)             \includegraphics on input line 241.
-Package epstopdf Info: Output file is already uptodate.
- <DataFlow-eps-converted-to.pdf, id=165, 1611.01875pt x 473.77pt>
-File: DataFlow-eps-converted-to.pdf Graphic file (type pdf)
-
-<use DataFlow-eps-converted-to.pdf>
-Package pdftex.def Info: DataFlow-eps-converted-to.pdf used on input line 241.
-(pdftex.def)             Requested size: 469.75499pt x 138.1416pt.
-
-Overfull \hbox (12.0pt too wide) in paragraph at lines 240--243
- [] 
- []
-
-[10 <C:/Users/Caroline/Documents/GitHub/Giovanni-goes-Giorgio/latex-style-files
--spie-manuscript/DataFlow-eps-converted-to.pdf>] [11]
 Package epstopdf Info: Source file: <LSMdata.eps>
 (epstopdf)                    date: 2015-01-05 14:54:23
 (epstopdf)                    size: 4306517 bytes
@@ -742,14 +711,14 @@ Package epstopdf Info: Source file: <LSMdata.eps>
 (epstopdf)                    size: 151723 bytes
 (epstopdf)             Command: <epstopdf --outfile=LSMdata-eps-converted-to.pd
 f LSMdata.eps>
-(epstopdf)             \includegraphics on input line 290.
+(epstopdf)             \includegraphics on input line 292.
 Package epstopdf Info: Output file is already uptodate.
 
-<LSMdata-eps-converted-to.pdf, id=185, 1075.01625pt x 1126.2075pt>
+<LSMdata-eps-converted-to.pdf, id=154, 1075.01625pt x 1126.2075pt>
 File: LSMdata-eps-converted-to.pdf Graphic file (type pdf)
 
 <use LSMdata-eps-converted-to.pdf>
-Package pdftex.def Info: LSMdata-eps-converted-to.pdf used on input line 290.
+Package pdftex.def Info: LSMdata-eps-converted-to.pdf used on input line 292.
 (pdftex.def)             Requested size: 434.54263pt x 455.24408pt.
 Missing character: There is no Â in font ptmr7t!
 Missing character: There is no µ in font ptmr7t!
@@ -759,8 +728,8 @@ Missing character: There is no Â in font ptmr7t!
 Missing character: There is no µ in font ptmr7t!
 Missing character: There is no Â in font ptmr7t!
 Missing character: There is no µ in font ptmr7t!
- [12] [13 <C:/Users/Caroline/Documents/GitHub/Giovanni-goes-Giorgio/latex-style
--files-spie-manuscript/LSMdata-eps-converted-to.pdf>]
+ [8] [9 <C:/Users/Caroline/Documents/GitHub/Giovanni-goes-Giorgio/latex-style-f
+iles-spie-manuscript/LSMdata-eps-converted-to.pdf>]
 Missing character: There is no Â in font ptmr7t!
 Missing character: There is no ± in font ptmr7t!
 Missing character: There is no Â in font ptmr7t!
@@ -770,19 +739,15 @@ Missing character: There is no ± in font ptmr7t!
 Missing character: There is no Â in font ptmr7t!
 Missing character: There is no ± in font ptmr7t!
 
-Overfull \hbox (44.98643pt too wide) in paragraph at lines 310--330
+Overfull \hbox (44.98643pt too wide) in paragraph at lines 312--332
  [][] 
  []
 
-[14]
+[10]
 
-LaTeX Warning: Text page 15 contains only floats.
+LaTeX Warning: Float too large for page by 41.34444pt on input line 376.
 
-[15
-
-
-
-]
+[11]
 (C:\Users\Caroline\Documents\GitHub\Giovanni-goes-Giorgio\latex-style-files-spi
 e-manuscript\manuscript1.0.brf)
 \tf@brf=\write5
@@ -792,19 +757,27 @@ Missing character: There is no “ in font ptmr7t!
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no “ in font ptmr7t!
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no “ in font ptmr7t!
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no “ in font ptmr7t!
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 432.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 452.
 
 (C:\Users\Caroline\Documents\GitHub\Giovanni-goes-Giorgio\latex-style-files-spi
-e-manuscript\manuscript1.0.lof
-Overfull \hbox (12.51912pt too wide) in paragraph at lines 2--2
+e-manuscript\manuscript1.0.lof [12
+
+
+
+
+]
+Overfull \hbox (12.51912pt too wide) in paragraph at lines 3--3
  [][] [][][]\OT1/ptm/m/n/12 (A) Topview of the ex-ci-ta-tion path. The galvo sc
 an-ners are mounted above periscopes. 
  []
 
-[16
-
-]
 Missing character: There is no Â in font ptmr7t!
 Missing character: There is no µ in font ptmr7t!
 Missing character: There is no Â in font ptmr7t!
@@ -815,28 +788,28 @@ Missing character: There is no µ in font ptmr7t!
 (C:\Users\Caroline\Documents\GitHub\Giovanni-goes-Giorgio\latex-style-files-spi
 e-manuscript\manuscript1.0.lot)
 \tf@lot=\write7
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 445.
- [17]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 445.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 465.
+ [13]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 465.
 
 (C:\Users\Caroline\Documents\GitHub\Giovanni-goes-Giorgio\latex-style-files-spi
 e-manuscript\manuscript1.0.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 445.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 445.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 465.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 465.
 Package rerunfilecheck Info: File `manuscript1.0.out' has not changed.
-(rerunfilecheck)             Checksum: 9DABF99A32DD3154F64D6E74D2010DE1;1051.
+(rerunfilecheck)             Checksum: EF36E97691A9BB6882AE8C353AEE51C2;739.
 Package rerunfilecheck Info: File `manuscript1.0.brf' has not changed.
-(rerunfilecheck)             Checksum: 26B24639AB4591CAD0E9D5AD022BE347;247.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 445.
+(rerunfilecheck)             Checksum: 82B5FA4DFA3C6A6DF15F37302DC5DAEE;305.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 465.
  ) 
 Here is how much of TeX's memory you used:
- 8865 strings out of 493921
- 133962 string characters out of 3147274
- 229513 words of memory out of 3000000
- 11892 multiletter control sequences out of 15000+200000
+ 8874 strings out of 493921
+ 134058 string characters out of 3147274
+ 225513 words of memory out of 3000000
+ 11906 multiletter control sequences out of 15000+200000
  30639 words of font info for 75 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 44i,17n,43p,3243b,386s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 44i,17n,43p,2052b,373s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program File
 s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX
  2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Program Files/MiKTeX 2.9/font
@@ -849,9 +822,9 @@ am Files/MiKTeX 2.9/fonts/type1/public/amsfonts/euler/eurm10.pfb><C:/Program Fi
 les/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fo
 nts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/tim
 es/utmri8a.pfb>
-Output written on manuscript1.0.pdf (17 pages, 2306925 bytes).
+Output written on manuscript1.0.pdf (13 pages, 1833547 bytes).
 PDF statistics:
- 327 PDF objects out of 1000 (max. 8388607)
- 53 named destinations out of 1000 (max. 500000)
- 172 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 298 PDF objects out of 1000 (max. 8388607)
+ 49 named destinations out of 1000 (max. 500000)
+ 135 words of extra memory for PDF output out of 10000 (max. 10000000)
 
