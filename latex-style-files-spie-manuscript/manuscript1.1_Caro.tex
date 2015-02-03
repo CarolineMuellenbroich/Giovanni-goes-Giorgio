@@ -57,9 +57,9 @@
 		pdfstartpage=1]
 	{hyperref} % makes pdf look nice with hyperlinks
 
-\title{Working title: the most amaz-zing SPIM and how we built it.} 
+\title{Robust data management for high through-put light sheet microscopy of whole mouse brains} 
 
-\author{M. Caroline M\"{u}llenbroich,\supscr{a,b} Ludovico Silvestri, \supscr{a,c} Leonardo Onofri,\supscr{e} Irene Costantini,\supscr{a} Marcel Van t'Hoff\supscr{f} Leonardo Sacconi,\supscr{a,c} Giulio Iannello,\supscr{e} Francesco S. Pavone,\supscr{a,b,c,d}  }
+\author{M. Caroline M\"{u}llenbroich,\supscr{a,b} Ludovico Silvestri, \supscr{a,c} Leonardo Onofri,\supscr{e} Irene Costantini,\supscr{a} Marcel Van t'Hoff,\supscr{f} Leonardo Sacconi,\supscr{a,c} Giulio Iannello,\supscr{e} Francesco S. Pavone,\supscr{a,b,c,d}  }
 
 \affiliation{\supscrsm{a}European Laboratory for Non-linear Spectroscopy (LENS), University of Florence, Italy\\
 \supscrsm{b}Department of Physics and Astronomy, University of Florence, Italy\\
@@ -105,7 +105,7 @@ Here we will present a state-of-the-art LSFM, as it is implemented in our lab, w
    \includegraphics[width=\textwidth]{PanelSampel.eps}
    \end{tabular}
    \end{center}
-   \caption{\label{fig:Panel0} (A) Schematic of light sheet microscopy. Excitation (blue) and fluorescence detection (green) occur on independent, perpendicular axes. (B) Mounting of a clarified, fluorescently labelled brain. The brain is glued onto a coverslip and inserted into an adapter that slides into a Teflon cylinder.} 
+   \caption{\label{fig:Panel0} (A) Schematic of light sheet microscopy. The sample is illuminated with a planar light sheet (blue) perpendicular to fluorescence detection (green). (B) Mounting of a clarified, fluorescently labelled brain. The brain is glued onto a coverslip and inserted into an adapter that slides into a Teflon cylinder.} 
    \end{figure}
 
 
@@ -126,7 +126,7 @@ Here we will present a state-of-the-art LSFM, as it is implemented in our lab, w
 		
 To elucidate neuronal projections and functional connections in structurally intact tissue it is paramount to be able to image centimeter-sized, clarified samples, such as mouse brains, with high resolution in whole mount preparation. While promising clearing protocols are well documented in literature\cite{Chung2013,Tomer2014}, the question of sample preparation and mounting in light sheet microscopy is not trivial but requires novel approaches to such extent that it is becoming a separate field of research and very diverse strategies such as FEP tubes, 3D printed chambers and Quartz cuvettes have been reported\cite{Kaufmann2012,Pitrone2013,Olarte2012,Tomer2014}, however, these approaches are limited to much smaller sample volumes. The problem of sample mounting in a light sheet microscope arises form the fact that optical access to the sample is required from 3-4 planar sides leaving only two opposing sides to insert, fix and move the sample. Most commonly the vertical direction is chosen. Stable mounting is hereby a key concern as a whole brain tomography can require image acquisition in excess of 24 hours and the effects of gravity, tissue shrinking/expansion and evaporation of the clearing solution over such time spans might have to be considered. 
 
-To acquire whole brain data sets, we fix a clarified and fluorescently-labelled mouse brain with super glue to a coverslip (Figure\ref{fig:Panel0},B). The brain is oriented along its axial orientation with the olfactory bulbs at the top and the cerebellum at the bottom of the coverslip. The coverslip is slid into a bottom adaptor and tightened with a plastic-capped grub screw. The bottom adaptor is inserted into a Teflon cylinder with the coverslip being positioned on the far side of the detection objective. Three different slits in the adapter correspond to varying distances to the detection objective and give variability in sample thickness for example to allow also for the mounting of rat brain hemispheres.
+For the acquisition of whole brain data sets, we fix a clarified and fluorescently-labelled mouse brain with super glue to a coverslip (Figure\ref{fig:Panel0},B). The brain is oriented along its axial orientation with the olfactory bulbs at the top and the cerebellum at the bottom of the coverslip. The coverslip is slid into a bottom adaptor and tightened with a plastic-capped grub screw. The bottom adaptor is inserted into a Teflon cylinder with the coverslip being positioned on the far side of the detection objective. Three different slits in the adapter correspond to varying distances to the detection objective and give variability in sample thickness for example to allow also for the mounting of rat brain hemispheres.
 	
 We designed a cubic, water-tight sample chamber (Figure\ref{fig:Panel1},A) that allows access from all six sides while maintaining the 3D integrity of large, clarified and fluorescently-labelled mouse brains. The sample chamber is tightly bolted  to the optical breadboard while soft connections using silicone bellows allow for adjustive movements of the objectives and free 3D motion of the motor stages (Figure\ref{fig:Panel1},B). All connections are sealed with rubber rings and silicone caulk and additionally tightened with cable binders. In this way the objectives can be refocused and realigned without compromising the watertight seal of the chamber (Figure\ref{fig:Panel1},C). The clarified brains are imaged immersed in clearing solution composed of 63\% TDE in Phosphate buffered saline (PBS) and a refractive index of 1.45. To fill the entire volume of the sample chamber approximately 400ml clearing solution are needed. A motorized x-, y-, z-, $\theta$-stage (Physik Instrumente, see Table\ref{tab:optomechanics}) allows free 3D motion and rotation of the Teflon cylinder which reaches into the centre of the chamber (Figure\ref{fig:Panel1},D). Illumination and detection axes are horizontal and the sampler rotation occurs around the vertical axis.		
 		
@@ -148,31 +148,29 @@ The custom-made, confocal light sheet microscope is equipped with 5 linearly pol
 \subsection{Illumination unit}		
 From here on three different light paths can be chosen through flip mirrors. One light path option guides the light through an axicon (apex angle of $160\degree$) and an achromatic doublet (f50) to create a Bessel beam. The other two options create Gaussian beams of different beam diameter. This diameter variation translates to different fields of view later on in the detection path. The three options are recombined before a polarising beam splitter cube which splits the excitation light depending on its polarisation into one of the two identical excitation arms. The beam is reduced with a telescope (f350, f200) whose telecentric plane coincides with the mirrored surface of a galvanometric scanner (galvo). The galvos are mounted on a custom made optical breadboard which features two circular holes to pass the periscopic beams and a large central cut-out for the sample chamber and motor stages. 
 
-The scan mirror surface is re-imaged with a telescope (f50, f100) onto the back aperture of a long working distance, low magnification objective (Nikon, 10x 0.3NA WD 17.5mm). The two excitation objectives are designed for air immersion but are immersed into the clearing solution within the sample chamber. A coverslip glued to the front housing edge serves the dual purpose of maintaining the first diffractive surface between the front optical element and the air and to protect the front lens elements from the organic solvent. The light sheet is generated digitally\cite{Keller2008a,Keller2008b} by scanning the excitation beam across the focal plane of the detection objective. %This generates perfectly incoherent illumination resulting in fewer artefacts.%cite{StelzerNatMeth2014}. 
+The scan mirror surface is re-imaged with a telescope (f50, f100) onto the back aperture of a long working distance, low magnification objective (Nikon, 10x 0.3NA WD 17.5mm). The two excitation objectives are designed for air immersion but are immersed into the clearing solution within the sample chamber. A coverslip glued to the front housing edge serves the dual purpose of maintaining the first diffractive surface between the front optical element and the air and to protect the front lens elements from the organic solvent. The light sheet is generated digitally\cite{Keller2008a,Keller2008b} by scanning the excitation beam across the focal plane of the detection objective. This generates incoherent illumination resulting in fewer artefacts.%cite{StelzerNatMeth2014}.
+Additionally each line is specimen is illuminated with the same intensity creating a homogeneous light sheet which is particularly advantageous for the quantitative investigation of large samples in their entirety.
 
 
 
 	
-\subsection{Detection}
+\subsection{Detection unit}
 		%objective, camera, rolling shutter. Use references\cite{Silvestri2012} to old SPIM.
 		%exposure time of single line affects how many are exposed at same time, confocality by synchronisation- not exactly
 		
 		%mention cell size, new paragraph explain option to go confocal 
 		
-In it's simplest form, the fluorescence detection unit of a light sheet microscope is a conventional wide-field microscope: an objective lens, a fluorescent filter and a tube lens for an image on a wide-field detector. Fluorescence is collected with an objective that is specifically designed for immersion in clearing solutions. The objective is equipped with a correction collar allowing for immersion in media with refractive indices ranging from 1.41 to 1.52 (Olympus, XLSLPLN25XGMP). To image the whole volume of interest the objective has a relatively low magnification of 25x and a large working distance of 8mm yet a high numerical aperture (1.0NA) affords high resolution imaging. A tube lens of 200mm creates the primary image on a sCMOS camera (Orca Flash4.0, Hamamatsu) with a chip of over 4 megapixels. In contrast to CCD sensors each pixel of a sCMOS camera sensor has a separate photodetector and amplification unit which means that sCMOS pixels can be read out independently from each other. In the rolling shutter data acquisition mode only a subset of adjacent horizontal pixel lines is simultaneously exposed and this active detection region is moved across the image sensor. With the delay between the exposure of two adjacent lines set to the minimum time required to read out a single line ($9.7\micro s$, see Table\ref{tab:resolution}) the entire frame of 2048 horizontal lines is activated within 19.86ms. Setting the line exposure time to 3ms results in approx. 300 lines being simultaneously exposed. This detection area is swept from the top to the bottom of the chip and acts like a moving, virtual confocal slit corresponding to a width of $80\micro m$ in the sample space. With those values the camera acquires images at a frame rate of 44Hz. 
+In it's simplest form, the fluorescence detection unit of a light sheet microscope is a conventional wide-field microscope: an objective lens, a fluorescent filter and a tube lens for an image on a wide-field detector. Fluorescence is collected with an objective that is specifically designed for immersion in clearing solutions. The objective is equipped with a correction collar allowing for immersion in media with refractive indices ranging from 1.41 to 1.52 (Olympus, XLSLPLN25XGMP). To image the whole volume of interest the objective has a relatively low magnification of 25x and a large working distance of 8mm yet a high numerical aperture (1.0NA) affords high resolution imaging. A tube lens of 200mm creates the primary image on a sCMOS camera (Orca Flash4.0, Hamamatsu) with a chip of over 4 megapixels. In contrast to CCD sensors each pixel of a sCMOS camera sensor has a separate photodetector and amplification unit which means that sCMOS pixels can be read out independently from each other. The cell size of the OrcaFlash is $p^2= 6.5\micro m$ x $6.5\micro m$ over an active area of 13.3mm. With a 200mm tube lens the field of view in the sample is $480\micro m$. 
+
+In the rolling shutter data acquisition mode only a subset of adjacent horizontal pixel lines is simultaneously exposed and this active detection region is moved across the image sensor. With the delay between the exposure of two adjacent lines set to the minimum time required to read out a single line ($t=9.7\micro s$, see Table\ref{tab:resolution}) the entire frame of 2048 horizontal lines is activated within 19.86ms. Setting the line exposure time to $l=3ms$ results in approx. $k=\nicefrac{l}{t}\approx300$  lines being simultaneously exposed at any time. This detection area is swept from the top to the bottom of the chip and acts like a moving, virtual confocal slit corresponding to a width of $d_s=\nicefrac{k p}{M_{\text{eff}}}= 0.72m$ in the sample space. With the given values of line exposure and line read out time, the camera acquires images at a frame rate of $\nu = \nicefrac{1}{(2048t+l)} \approx 44Hz$. 
 
 The camera was run as master in the internal trigger mode and a synchronisation pulse generated with the exposure of each new line was used as as an output trigger for a data acquisition and generation device (DAQ) from National Instruments which was operated as slave. The saw-tooth driving signal for the galvo mirrors was generated by the DAQ and synchronised with the pixel line reset pulses from the camera to achieve confocal line detection\cite{Baumgart2012}. For optimal imaging it is crucial that the sample-emitted line of fluorescence is in the centre of the rolling shutter at the start of each image acquisition and furthermore travels with the same speed during stack acquisition. Any deviation from precise synchronisation results in image artefacts and severely degraded image contrast. The confocal resolution can be changed at run-time by changing the user-defined line exposure time and with it rolling shutter width, that is the number of horizontal pixel lines simultaneously exposed.   
  
-
-
-
 
 \section{Optical characterisation}
 An overview of imaging properties and derived quantities is given in Table\ref{tab:resolution}.	
 
 
-
-	
 	\subsection{Contrast}
 	
 	\subsection{Signal-to-noise ratio}
@@ -355,18 +353,18 @@ mapping of complementary data sets obtained in the same system, eg structural co
 	\centering
 		\caption[Resolution]{Imaging properties and derived quantities. The thickness of the light sheet is approximately of the same size as the depth of field of the high NA detection lens.\label{tab:resolution}}
 		\begin{tabular}{lrlrl}
-		\multicolumn{5}{l}{Detection}\\\hline\hline
+		\multicolumn{5}{l}{Detection}\\\hline\hline  
 		wavelength																	&	$\lambda$				&																																					& 0.5			& $\mu m$	\\
 		refractive index														&	n								&																																					& 1.45		& 				\\
 		numerical aperture 													&	$\text{NA}_d$		&																																					& 1				& 				\\
-		angular aperture 														& $\alpha$				&	$=sin^{-1}(\nicefrac{\text{NA}_d}{n})$																	& 43.6		& $deg$		\\
-		magnification 															& M								&																																					& 25			&					\\
-		tube lens 																	& $f_{\text{TL}}$	&																																					& 180			&	$mm$		\\
+		%angular aperture 													& $\alpha$				&	$=sin^{-1}(\nicefrac{\text{NA}_d}{n})$																	& 43.6		& $deg$		\\
+		magnification 															& $M_{\text{eff}}$&	$= \nicefrac{f_{\text{TL}}}{\text{EFL}}$																& 27.8		&					\\
+		tube lens 																	& $f_{\text{TL}}$	&																																					& 200			&	$mm$		\\
 		effective focal length objective						& EFL							& $=\nicefrac{f_{\text{TL}}}{M}$																					& 7.2			& $mm$		\\
-		diameter back focal plane										& BFP							& $= 2\text{EFL}\text{NA}_d$																							& 14.4		& $mm$		\\
+		diameter back focal plane										& BFP							& $= 2\cdot \text{EFL} \cdot \text{NA}_d$																	& 14.4		& $mm$		\\
 		field number																& FN							&																																					& 18			& $mm$		\\
-		field size in specimen											& S								& $=\nicefrac{\text{FN}}{M}$																							& 0.72		& $mm$		\\
-		depth of field															& $\Delta$				& $=\nicefrac{\lambda*n}{(\text{NA}_d)^2}+ \nicefrac{n*e}{M \text{NA}_d}$	& 1.10 		& $\mu m$	\\ 
+		field size in specimen											& S								& $=\nicefrac{\text{FN}}{M}$																							& 0.65		& $mm$		\\
+		depth of field															& $\Delta$				& $=\nicefrac{\lambda \cdot n}{(\text{NA}_d)^2}+ \nicefrac{n \cdot e}{M \cdot \text{NA}_d}$	& 1.06 		& $\mu m$	\\ 
 		Airy radius lat.														& $r_A$						& $=\nicefrac{0.61 \lambda}{\text{NA}_d}$																	& 0.31		& $\mu m$	\\\\
 		\multicolumn{5}{l}{Excitation}\\\hline\hline
 		numerical aperture 													&	$\text{NA}_e$		&																																					& 0.3			& 				\\
@@ -384,9 +382,9 @@ mapping of complementary data sets obtained in the same system, eg structural co
 		effective area 															& $r^2$						&																																					& $13.3^2$	&	$\text{mm}^2$	\\
 		line read out time													& t								&																																					& 9.7			&	$\mu s$	\\
 		line exposure time													& l								&																																					& 3				&	ms			\\
-		slit width, camera space										& $d_c$						& $=\nicefrac{l}{t} $																											& 2				&	mm	\\
-		slit width, sample space										& $d_s$						&	$=\nicefrac{d_c}{M}$																										& 80			&	$\mu m$	\\
-		frame rate																	& $\nu$						&	$=\nicefrac{1}{2048 t + l}$																							& 43.6		& Hz\\
+		slit width, camera space										& $d_c$						& $=\nicefrac{l \cdot e}{t} $																							& 2				&	mm	\\
+		slit width, sample space										& $d_s$						&	$=\nicefrac{d_c}{M}$																										& 0.72		&	mm	\\
+		frame rate																	& $\nu$						&	$=\nicefrac{1}{(2048 \cdot t + l})$																			& 43.6		& Hz\\
 		\end{tabular}
 \end{table}
 \end{landscape}		
