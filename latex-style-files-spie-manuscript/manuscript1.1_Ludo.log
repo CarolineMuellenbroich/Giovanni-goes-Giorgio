@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.7.2)  20 JAN 2015 11:06
+=======
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.3.27)  2 FEB 2015 19:02
+>>>>>>> 0b2ca9207bec73f434e58f32c675eb01a5f44a54
 entering extended mode
 **manuscript1.1_Ludo.tex
 
@@ -632,17 +636,28 @@ Overfull \hbox (12.0pt too wide) in paragraph at lines 141--144
 [3] [4 <C:/Users/Caroline/Documents/GitHub/Giovanni-goes-Giorgio/latex-style-fi
 les-spie-manuscript/Panel2-eps-converted-to.pdf>] [5]
 Package epstopdf Info: Source file: <Panel3.eps>
+<<<<<<< HEAD
 (epstopdf)                    date: 2015-01-16 14:35:39
 (epstopdf)                    size: 6319552 bytes
 (epstopdf)             Output file: <Panel3-eps-converted-to.pdf>
 (epstopdf)                    date: 2015-01-16 14:40:25
+=======
+(epstopdf)                    date: 2015-01-20 10:52:24
+(epstopdf)                    size: 6404292 bytes
+(epstopdf)             Output file: <Panel3-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-02-02 15:45:25
+>>>>>>> 0b2ca9207bec73f434e58f32c675eb01a5f44a54
 (epstopdf)                    size: 271887 bytes
 (epstopdf)             Command: <epstopdf --outfile=Panel3-eps-converted-to.pdf
  Panel3.eps>
 (epstopdf)             \includegraphics on input line 164.
 Package epstopdf Info: Output file is already uptodate.
+<<<<<<< HEAD
 
 <Panel3-eps-converted-to.pdf, id=129, 1541.76pt x 573.14125pt>
+=======
+ <Panel3-eps-converted-to.pdf, id=129, 1541.76pt x 573.14125pt>
+>>>>>>> 0b2ca9207bec73f434e58f32c675eb01a5f44a54
 File: Panel3-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Panel3-eps-converted-to.pdf>
@@ -656,10 +671,17 @@ Overfull \hbox (12.0pt too wide) in paragraph at lines 163--166
 [6 <C:/Users/Caroline/Documents/GitHub/Giovanni-goes-Giorgio/latex-style-files-
 spie-manuscript/Panel3-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <Panel4.eps>
+<<<<<<< HEAD
 (epstopdf)                    date: 2015-01-16 12:56:06
 (epstopdf)                    size: 932020 bytes
 (epstopdf)             Output file: <Panel4-eps-converted-to.pdf>
 (epstopdf)                    date: 2015-01-16 12:56:26
+=======
+(epstopdf)                    date: 2015-01-20 10:52:24
+(epstopdf)                    size: 946040 bytes
+(epstopdf)             Output file: <Panel4-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-01-20 10:52:24
+>>>>>>> 0b2ca9207bec73f434e58f32c675eb01a5f44a54
 (epstopdf)                    size: 321785 bytes
 (epstopdf)             Command: <epstopdf --outfile=Panel4-eps-converted-to.pdf
  Panel4.eps>
@@ -699,8 +721,13 @@ Overfull \hbox (12.0pt too wide) in paragraph at lines 191--194
  [] 
  []
 
+<<<<<<< HEAD
 [7 <C:/Users/Caroline/Documents/GitHub/Giovanni-goes-Giorgio/latex-style-files-
 spie-manuscript/Panel4-eps-converted-to.pdf>]
+=======
+[7 <C:/Users/Ludo/Lavoro/Articoli/Neurophotonics_SPIM/github_Caroline/Giovanni-
+goes-Giorgio/latex-style-files-spie-manuscript/Panel4-eps-converted-to.pdf>]
+>>>>>>> 0b2ca9207bec73f434e58f32c675eb01a5f44a54
 LaTeX Font Info:    Try loading font information for OMS+ptm on input line 212.
 
 
@@ -719,17 +746,21 @@ Package epstopdf Info: Source file: <DataFlow.eps>
 (epstopdf)                    size: 535425 bytes
 (epstopdf)             Command: <epstopdf --outfile=DataFlow-eps-converted-to.p
 df DataFlow.eps>
-(epstopdf)             \includegraphics on input line 259.
+(epstopdf)             \includegraphics on input line 264.
 Package epstopdf Info: Output file is already uptodate.
+<<<<<<< HEAD
 
 <DataFlow-eps-converted-to.pdf, id=188, 1611.01875pt x 473.77pt>
+=======
+ <DataFlow-eps-converted-to.pdf, id=186, 1611.01875pt x 473.77pt>
+>>>>>>> 0b2ca9207bec73f434e58f32c675eb01a5f44a54
 File: DataFlow-eps-converted-to.pdf Graphic file (type pdf)
 
 <use DataFlow-eps-converted-to.pdf>
-Package pdftex.def Info: DataFlow-eps-converted-to.pdf used on input line 259.
+Package pdftex.def Info: DataFlow-eps-converted-to.pdf used on input line 264.
 (pdftex.def)             Requested size: 469.75499pt x 138.1416pt.
 
-Overfull \hbox (12.0pt too wide) in paragraph at lines 258--261
+Overfull \hbox (12.0pt too wide) in paragraph at lines 263--266
  [] 
  []
 
@@ -743,14 +774,18 @@ Package epstopdf Info: Source file: <LSMdata.eps>
 (epstopdf)                    size: 151723 bytes
 (epstopdf)             Command: <epstopdf --outfile=LSMdata-eps-converted-to.pd
 f LSMdata.eps>
-(epstopdf)             \includegraphics on input line 306.
+(epstopdf)             \includegraphics on input line 311.
 Package epstopdf Info: Output file is already uptodate.
+<<<<<<< HEAD
 
 <LSMdata-eps-converted-to.pdf, id=199, 1075.01625pt x 1126.2075pt>
+=======
+<LSMdata-eps-converted-to.pdf, id=200, 1075.01625pt x 1126.2075pt>
+>>>>>>> 0b2ca9207bec73f434e58f32c675eb01a5f44a54
 File: LSMdata-eps-converted-to.pdf Graphic file (type pdf)
 
 <use LSMdata-eps-converted-to.pdf>
-Package pdftex.def Info: LSMdata-eps-converted-to.pdf used on input line 306.
+Package pdftex.def Info: LSMdata-eps-converted-to.pdf used on input line 311.
 (pdftex.def)             Requested size: 434.54263pt x 455.24408pt.
 Missing character: There is no Â in font ptmr7t!
 Missing character: There is no µ in font ptmr7t!
@@ -771,7 +806,7 @@ Missing character: There is no ± in font ptmr7t!
 Missing character: There is no Â in font ptmr7t!
 Missing character: There is no ± in font ptmr7t!
 
-Overfull \hbox (44.98643pt too wide) in paragraph at lines 326--346
+Overfull \hbox (44.98643pt too wide) in paragraph at lines 331--351
  [][] 
  []
 
@@ -794,7 +829,7 @@ Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no “ in font ptmr7t!
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 454.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 459.
 
 (C:\Users\Caroline\Documents\GitHub\Giovanni-goes-Giorgio\latex-style-files-spi
 e-manuscript\manuscript1.1_Ludo.lof
@@ -816,24 +851,37 @@ Missing character: There is no µ in font ptmr7t!
 (C:\Users\Caroline\Documents\GitHub\Giovanni-goes-Giorgio\latex-style-files-spi
 e-manuscript\manuscript1.1_Ludo.lot)
 \tf@lot=\write7
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 467.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 472.
  [19]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 467.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 472.
 
+<<<<<<< HEAD
 (C:\Users\Caroline\Documents\GitHub\Giovanni-goes-Giorgio\latex-style-files-spi
 e-manuscript\manuscript1.1_Ludo.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 467.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 467.
+=======
+(C:\Users\Ludo\Lavoro\Articoli\Neurophotonics_SPIM\github_Caroline\Giovanni-goe
+s-Giorgio\latex-style-files-spie-manuscript\manuscript1.1_Ludo.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 472.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 472.
+>>>>>>> 0b2ca9207bec73f434e58f32c675eb01a5f44a54
 Package rerunfilecheck Info: File `manuscript1.1_Ludo.out' has not changed.
 (rerunfilecheck)             Checksum: 4757D256560787D84A56C669E2801CFF;1190.
 Package rerunfilecheck Info: File `manuscript1.1_Ludo.brf' has not changed.
-(rerunfilecheck)             Checksum: 0FF11EF4303635BF2411C3331A31FFF7;436.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 467.
+(rerunfilecheck)             Checksum: EBB45B94C8568FF67804B4A8223F374D;436.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 472.
  ) 
 Here is how much of TeX's memory you used:
+<<<<<<< HEAD
  8902 strings out of 493921
  134664 string characters out of 3147274
  229513 words of memory out of 3000000
+=======
+ 8903 strings out of 493921
+ 135268 string characters out of 3147285
+ 229515 words of memory out of 3000000
+>>>>>>> 0b2ca9207bec73f434e58f32c675eb01a5f44a54
  11920 multiletter control sequences out of 15000+200000
  30639 words of font info for 75 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
@@ -850,9 +898,13 @@ am Files/MiKTeX 2.9/fonts/type1/public/amsfonts/euler/eurm10.pfb><C:/Program Fi
 les/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fo
 nts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/tim
 es/utmri8a.pfb>
+<<<<<<< HEAD
 Output written on manuscript1.1_Ludo.pdf (19 pages, 2316774 bytes).
+=======
+Output written on manuscript1.1_Ludo.pdf (19 pages, 2322816 bytes).
+>>>>>>> 0b2ca9207bec73f434e58f32c675eb01a5f44a54
 PDF statistics:
- 351 PDF objects out of 1000 (max. 8388607)
- 59 named destinations out of 1000 (max. 500000)
+ 352 PDF objects out of 1000 (max. 8388607)
+ 60 named destinations out of 1000 (max. 500000)
  180 words of extra memory for PDF output out of 10000 (max. 10000000)
 
