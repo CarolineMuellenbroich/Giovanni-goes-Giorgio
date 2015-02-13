@@ -149,6 +149,7 @@ The camera was run as master in the internal trigger mode and a synchronisation 
  
 
 \section{Sample mounting and motion}
+\label{sec:mounting}
 %Biological tissue is, bar of very few exemptions like the cornea or zebrafish larvae, highly scattering. Scattering is the deflection of light rays due to the heterogeneous mixture of cells and sub-cellular structures with varying refractive indices. Rayleigh scattering, the nearly isotropic and strongly wavelength dependent scattering of light by particles much smaller than the wavelength of light, and Mie scattering, which occurs on cellular structures such as organelles and other refractive structures which are larger than the wavelength of light, far outweigh absorption and cause most biological tissues to be opaque. In the visible spectrum, the scattering of fluorescence photons is dominant over ballistic fluorescence such that for the imaging of large samples optical clearing methods based on refractive index matching have been employed. These methods involve several chemical sample preparation steps to generate transparent yet structurally and anatomically intact tissue.
 %
 %A successful optical clearing method not only renders the tissue transparent but also causes neither quenching of protein fluorescence nor tissue distortion and is compatible with repetitive immunostaining. A very promising method called CLARITY\cite{Chung2013,Tomer2014} transforms tissue into a nanoporous, hydrogel-hybridized, lipid-free form. Crucially for high through-put clearing and imaging of large samples, the protocol, however, is ideally also fast, easy and cheap. Our lab therefore development a versatile, simple, rapid and inexpensive clearing method based on a water-soluble agent, 2,2'-thiodiethanol (TDE) which in combination with CLARITY allows for the optical clearing of entire mouse brains or human biopsies. With this protocol (see [cite Irene] for a detailed description) a mouse brain (Figure\ref{fig:Panel1},B) takes 1 month to clear at a costs of \$XY.
@@ -170,6 +171,7 @@ For the acquisition of whole brain data sets, we fix a clarified and fluorescent
 	
 \section{Optical characterisation}
 
+\subsection{Theoretical considerations}
 \begin{figure}
    \begin{center}
    \begin{tabular}{c}
@@ -204,10 +206,17 @@ The thickness of the light sheet is not constant throughout the field of view (F
 b = \frac{2\pi w_0^2}{\lambda} = \frac{2 \lambda  {(f_{\text{i}}^{\text{eff}})}^2}{\pi w^2}\, .
 \end{equation}
 
-The need to have an almost uniform resolution in the camera FOV imposes a lower bound to $b$ and thus (according to the previous equations) a limit to the axial resolution. In our setup we adjusted the telescopes in the excitation path in order to have $w \simeq 1.4mm$, resulting in $b \simeq 95 \micro m$ and $\text{FWHM}_{\text{axial}} \simeq 1.6mm$. An overview of the relevant formulas concerning the optical properties of a light sheet microscope is given in Table\ref{tab:resolution}. The reader is referred to this table as a quick guide to tailor their microscope to their specific needs.
+The need to have an almost uniform resolution in the camera FOV imposes a lower bound to $b$ and thus (according to the previous equations) a limit to the axial resolution. In our setup we adjusted the telescopes in the excitation path in order to have $w \simeq 1.4mm$, resulting in $b \simeq 95 \micro m$ and $\text{FWHM}_{\text{axial}} \simeq 2.68 \micro m$. An overview of the relevant formulas concerning the optical properties of a light sheet microscope is given in Table\ref{tab:resolution}. The reader is referred to this table as a quick guide to tailor their microscope to their specific needs.
 
+\subsection{Experimental characterisation}
 
 For optimal imaging it is crucial that the sample-emitted line of fluorescence is in the centre of the rolling shutter at the start of each image acquisition and furthermore travels with the same speed during stack acquisition. To this end the galvo scanners were calibrated using a fluorescein solution in the sample chamber and an image of the focal line was acquired for a set of mirror angles. By fitting each focal line profile to a Gaussian curve the position of the beam main axis was determined and plotted against the voltage applied to the galvo scanner. A linear fit to this data yielded the precise amplitude and offset for each galvo scanner hereby taking into account the confocal slit width itself such that maximum beam deflection corresponded to the central pixel line of the confocal slit coinciding with the first and last pixel row on the camera chip. 
+
+From the same data the average FWHM of the Gaussian excitation line over the FOV was calculated. The average FWHM of $0.7\micro m$ was hence set as 1 confocal unit and corresponded to a slit width of 3 horizontal lines on the camera. For quantitative analysis of spatial resolution and the signal to noise ratio (SNR) we acquired image stacks of subresolution sized fluorescent beads (500nm diameter?, from which company?) embedded in low- melting point agarose (2\% agarose in 64\%TDE in PBS). The low melting point agarose (A-4018, Sigma-Aldrich?) was dissolved at 40 °C then mixed with a diluted bead solution and left to polymerise over night on a coverslip. The coverslip was then mounted inside the sample chamber as described in section \ref{sec:mounting}. The embedded sub-diffraction fluorescent beads were imaged with varying confocal slit widths ranging from 0.25 units to 100 confocal units corresponding to slit widths changing from $0.175-70 \micro m$ in the sample space. For each slit width one stack of $200\micro m$ depth ($1 \micro m$ step size) was acquired and the one dimensional PSF in the lateral and axial directions were extracted manually with FIJI/ImageJ (eg. Fig.\ref{fig:origin},A) throughout the image stack. After fitting the lateral and axial profiles with Gaussian curves, the lateral and axial FWHM were averaged (n=10 data points) for different slit widths. The spatial resolution, in agreement with previous findings\cite{Wilson1987,Cox2004}, is not affected by the confocal slit widths on the camera (Fig.\ref{fig:origin},B) and the lateral and axial FWHMs averaged to $(1.00\pm0.04) \micro m$ and $(8.13\pm0.14 \micro) m$ respectively. The SNR was calculated according to $\text{SNR} = \nicefrac{y_0 + A}{y_0}$ where $y_0$ and $A$ are the offset and amplitude of the Gaussian fits. The SNR increases with increasing slit width up to a maximum at a slit width of $7 \micro m$ corresponding to 10 confocal units (Fig. \ref{fig:origin},C).   
+$0.61 \micro m$
+
+
+
 
 \section{Microscope management software}
 
@@ -431,6 +440,11 @@ The authors are grateful to Riccardo Ballerini and Ahmed Hajeb from the mechanic
 \bibitem{Olarte2012} O. E. Olarte, J. Licea-Rodriguez, J. A. Palero, E. J. Gualda, D. Artigas, J. Mayer and P. Loza-Alvarez, ``Image formation by linear and nonlinear digital scanned light-sheet fluorescence microscopy with Gaussian and Bessel beam profiles," \emph{Biomedical optics express} \textbf{3}(7), 1492-1505 (2012).
 
 \bibitem{Teich} M. C. Teich and B. E. A. Saleh, ``Fundamentals of photonics," \emph{Canada, Wiley Interscience} 3 (1991).
+
+\bibitem{Wilson1987} T. Wilson and A. R. Carlini, ``Size of the detector in confocal imaging systems," \emph{Opt. Lett.} 12(4), 227–229 (1987).
+
+\bibitem{Cox2004} G. Cox and C. J. Sheppard, ``Practical limits of resolution in confocal and non-linear microscopy," \emph{Microsc. Res. Tech.} 63(1), 18–22 (2004).
+ 
 
 \bibitem{Silvestri2012} L. Silvestri, A. Bria, L. Sacconi, G. Iannello,  and F. S. Pavone,  ``Confocal light sheet microscopy: micron-scale neuroanatomy of the entire mouse brain," \emph{Opt Express} \textbf{20}(18), 20582-20598 (2012).
 
