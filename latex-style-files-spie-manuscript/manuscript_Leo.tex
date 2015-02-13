@@ -81,7 +81,7 @@ The comprehensive mapping and quantification of neuronal connections in the cent
 \end{abstract}
 
 %>>>> Include a list of up to six keywords after the abstract
-\keywords{Light sheet microscopy, whole brain mounting, whole brain imaging, big data, data management, software management, imaging pipeline, high-throughput imaging.}
+\keywords{Light sheet microscopy, whole brain mounting, whole brain imaging, big data, data management, software management, imaging pipeline, high-throughput imaging}
 
 %>>>> Include contact information for corresponding author
 {\noindent \footnotesize{\bf Address all correspondence to}: First author, University Name, Faculty Group, Department, Street Address, City, Country, Postal Code; Tel: +1 555-555-5555; Fax: +1 555-555-5556; E-mail:  \linkable{myemail@university.edu} }
@@ -170,50 +170,44 @@ For the acquisition of whole brain data sets, we fix a clarified and fluorescent
 	
 \section{Optical characterisation}
 
-The optical properties of a microscope can be summarized by the point-spread function (PSF), which is the image of a point source in object space. In particular, the radial (i.e. perpendicular to the detection axis) and axial (i.e. parallel to the detection axis) resolution of the microscope can be quantified with the full width at half-maximum (FWHM) of the PSF itself along the chosen direction. In a light sheet microscope, axial and radial resolutions are determined by the numerical aperture (NA) of the illumination and detection optics, respectively. The radial PSF is a standard Airy function, whose FWHM is given by:
-
-\begin{equation}
-\text{FWHM}_{\text{radial}} \simeq \frac{0.51 \lambda_0}{\text{NA}_{\text{d}}} \, ,
-\end{equation}
-
-$\lambda_0$ being the wavelength in vacuum and $\text{NA}_{\text{d}}$ the NA of the detection objective. 
-
-The axial resolution is given by the thickness of the light sheet. If Gaussian beams are used for illumination, the thickness of the light sheet can be calculated by the well-known formulas of Gaussian optics\cite{Teich}. The $1/e^2$ radius of the beam waist is given by:
-\begin{equation}
-w_0 = \frac{\lambda f_{\text{i}}^{\text{eff}}}{\pi w} \, ,
-\end{equation}
-where $w$ is the $1/e^2$ radius of the beam entering the illumination objective, $ f_{\text{i}}^{\text{eff}}$ is the effective focal length of the illumination optics and $\lambda$ is the wavelength in the medium ($\lambda = \lambda_0 / n$, $n$ being the refractive index). Note that, for air objectives (as the one we use for illumination) the effective focal length is extended by a factor $n$ when used inside a medium with refractive index different from unity\cite{Silvestri2012}.
-The axial FWHM is then given by:
-\begin{equation}
-\text{FWHM}_{\text{axial}} \simeq 1.177 w_0 \, .
-\end{equation}
-
-The thickness of the light sheet is not constant throughout the field of view due to the limited depth of focus of the Gaussian beam. This latter can be quantified by the confocal parameter $b$, which is the distance along which the beam $1/e^2$ radius is not bigger than $\sqrt{2} w_0$:
-\begin{equation}
-b = \frac{2\pi w_0^2}{\lambda} = \frac{2 \lambda  {(f_{\text{i}}^{\text{eff}})}^2}{\pi w^2}\, .
-\end{equation}
-
-The need to have an almost uniform resolution in the camera field of view (FOV) imposes a lower bound to $b$ and thus (according to the previous equations) a limit to the axial resolution. In our setup we adjusted the telescopes in the excitation path in order to have $w \simeq ???$, resulting in $b \simeq ???$ and $\text{FWHM}_{\text{axial}} \simeq?????$. 
-
-An overview of the relevant formulas concerning the optical properties of a light sheet microscope is given in Table\ref{tab:resolution}. The reader is referred to this table as a quick guide to tailor the apparatus to their specific needs.
-
-
-AND HERE THE AMMAZING OURS DATAS
-
-	\begin{figure}
+\begin{figure}
    \begin{center}
    \begin{tabular}{c}
    \includegraphics[width=\textwidth]{origin.eps}
    \end{tabular}
    \end{center}
    \caption{\label{fig:origin} Optical characterisation. (A) Exemplary lateral and axial intensity profiles of sub-resolution beads and fits to Gaussian. (B) For each unit 10 bead profiles were fitted in all three dimensions and their FWHM was averaged. (C) The signal to noise ratio.} 
-   \end{figure}
+\end{figure}
+
+The optical properties of a microscope can be summarized by the point-spread function (PSF), which is the image of a point source in object space. In particular, the radial (i.e. perpendicular to the detection axis) and axial (i.e. parallel to the detection axis) resolution of the microscope can be quantified with the full width at half-maximum (FWHM) of the PSF itself along the chosen direction (see Fig. \ref{fig:origin}, A). In a light sheet microscope, axial and radial resolution are determined by the numerical aperture (NA) of the illumination and detection optics, respectively. The radial PSF is a standard Airy function, whose FWHM is given by:
+
+\begin{equation}
+\text{FWHM}_{\text{radial}} \simeq \frac{0.51 \lambda_0}{\text{NA}_{\text{d}}} \, ,
+\end{equation}
+
+$\lambda_0$ being the wavelength in vacuum and $\text{NA}_{\text{d}}$ the NA of the detection objective. The axial resolution is dominated by the thickness of the light sheet which for high NA detection objectives is usually larger than the the depth of field of the detection objective. If Gaussian beams are used for illumination, the thickness of the light sheet can be calculated by the well-known formulas of Gaussian optics\cite{Teich}. The radius of the beam waist is given by:
+
+\begin{equation}
+w_0 = \frac{\lambda f_{\text{i}}^{\text{eff}}}{\pi w} \, ,
+\end{equation}
+
+where $w$ is the $1/e^2$ radius of the beam entering the illumination objective, $ f_{\text{i}}^{\text{eff}}$ is the effective focal length of the illumination optics and $\lambda$ is the wavelength in the medium ($\lambda = \lambda_0 / n$, $n$ being the refractive index). Note that, for air objectives (as the one we use for illumination) the effective focal length is extended by a factor $n$ when used inside a medium with refractive index different from unity\cite{Silvestri2012}.
+The axial FWHM is then given by:
+
+\begin{equation}
+\text{FWHM}_{\text{axial}} \simeq 1.177 w_0 \, .
+\end{equation}
+
+The thickness of the light sheet is not constant throughout the field of view (FOV) due to the limited depth of focus of the Gaussian beam. The latter can be quantified by the confocal parameter $b$, which is the distance along which the beam $1/e^2$ radius remains relatively constant and smaller than $\sqrt{2} w_0$:
+
+\begin{equation}
+b = \frac{2\pi w_0^2}{\lambda} = \frac{2 \lambda  {(f_{\text{i}}^{\text{eff}})}^2}{\pi w^2}\, .
+\end{equation}
+
+The need to have an almost uniform resolution in the camera FOV imposes a lower bound to $b$ and thus (according to the previous equations) a limit to the axial resolution. In our setup we adjusted the telescopes in the excitation path in order to have $w \simeq 1.4mm$, resulting in $b \simeq 95 \micro m$ and $\text{FWHM}_{\text{axial}} \simeq 1.6mm$. An overview of the relevant formulas concerning the optical properties of a light sheet microscope is given in Table\ref{tab:resolution}. The reader is referred to this table as a quick guide to tailor their microscope to their specific needs.
 
 
-
-For optimal imaging it is crucial that the sample-emitted line of fluorescence is in the centre of the rolling shutter at the start of each image acquisition and furthermore travels with the same speed during stack acquisition. 
-
-
+For optimal imaging it is crucial that the sample-emitted line of fluorescence is in the centre of the rolling shutter at the start of each image acquisition and furthermore travels with the same speed during stack acquisition. To this end the galvo scanners were calibrated using a fluorescein solution in the sample chamber and an image of the focal line was acquired for a set of mirror angles. By fitting each focal line profile to a Gaussian curve the position of the beam main axis was determined and plotted against the voltage applied to the galvo scanner. A linear fit to this data yielded the precise amplitude and offset for each galvo scanner hereby taking into account the confocal slit width itself such that maximum beam deflection corresponded to the central pixel line of the confocal slit coinciding with the first and last pixel row on the camera chip. 
 
 \section{Microscope management software}
 
@@ -382,24 +376,24 @@ Light sheet microscopy has already been a game changer for large-scale imaging b
 		\begin{tabular}{lrcl}
 		\\
 		\multicolumn{4}{l}{General formulas for microscope objectives}\\\hline\hline 
-		Nominal focal length							& $f$ 													& $=$		& $f_{\text{TL}}^{\text{design}}/\text{M}$				\\	
-		Effective focal length						& $f^{\text{eff}}$							& $=$		& $nf$													\\
-		Effective magnification						& $\text{M}^{\text{eff}}$				& $=$		& $f_{\text{TL}}^{\text{real}}/f^{\text{eff}}$			\\\\
+		Nominal focal length							& $f$ 													& $=$					& $f_{\text{TL}}^{\text{design}}/\text{M}$				\\	
+		Effective focal length						& $f^{\text{eff}}$							& $=$					& $nf$													\\
+		Effective magnification						& $\text{M}^{\text{eff}}$				& $=$					& $f_{\text{TL}}^{\text{real}}/f^{\text{eff}}$			\\\\
 		\multicolumn{4}{l}{Excitation (Gaussian)}\\\hline\hline	
-		Beam waist												&$w_0$													& $=$ 	& $ \lambda f_{\text{i}}^{\text{eff}} / \pi w$				\\
-		Axial resolution									&$\text{FWHM}_{\text{axial}}$		& $=$   & $1.177 w_0 $											\\
-		Confocal parameter								& b															& $=$   & $2 \pi \omega_0^2 / \lambda$							\\
-																			&  															& $=$   & $2 \lambda {(f_{\text{i}}^{\text{eff}})}^2 / \pi w^2 $	\\\\
+		Beam waist												&$w_0$													& $=$ 				& $ \lambda f_{\text{i}}^{\text{eff}} / \pi w$				\\
+		Axial resolution									&$\text{FWHM}_{\text{axial}}$		& $\approx$   & $ 1.17 w_0 $											\\
+		Confocal parameter								& b															& $=$  				& $2 \pi \omega_0^2 / \lambda$							\\
+																			&  															& $=$   			& $2 \lambda {(f_{\text{i}}^{\text{eff}})}^2 / \pi w^2 $	\\\\
 		\multicolumn{4}{l}{Detection}\\\hline\hline  
-		Radial resolution									&$\text{FWHM}_{\text{radial}}$	& $=$		& $0.5 \lambda_0 / \text{NA}_{d}$						\\
-		Objective field size							& S															& $=$		& $\text{FN}/{\text{M}}$								\\\\
+		Radial resolution									&$\text{FWHM}_{\text{radial}}$	& $=$					& $0.5 \lambda_0 / \text{NA}_{d}$						\\
+		Objective field size							& S															& $=$					& $\text{FN}/{\text{M}}$								\\\\
 		\multicolumn{4}{l}{Camera}\\\hline\hline  
-		Pixel size object space						& $ p_{\text{object}}$					& $=$		& $p/  \text{M}^{\text{eff}}$							\\
-		Camera FOV object space						&$\text{FOV}_{\text{object}}$		& $=$		& $r_{\text{chip}} / \text{M}^{\text{eff}}$				\\
-																			&																& $=$		& $p_{\text{object}} \cdot \#_{\text{pixels}}$			\\
-		Slit width on camera							& $s_{\text{camera}}$						& $=$		& $ p \cdot t_{\text{exp}} / t_{\text{shutter}} $			\\
-		Slit width in object space				& $s_{\text{object}}$						& $=$		& $ s_{\text{camera}}/ \text{M}^{\text{eff}}$			\\
-		Frame rate												& $\nu$													& $=$		& $1/(\#_{\text{horiz. lines}} \cdot t_{\text{shutter}} + t_{\text{exp}})$ \\\\
+		Pixel size object space						& $ p_{\text{object}}$					& $=$					& $p/  \text{M}^{\text{eff}}$							\\
+		Camera FOV object space						&$\text{FOV}_{\text{object}}$		& $=$					& $r_{\text{chip}} / \text{M}^{\text{eff}}$				\\
+																			&																& $=$					& $p_{\text{object}} \cdot \#_{\text{pixels}}$			\\
+		Slit width on camera							& $s_{\text{camera}}$						& $=$					& $ p \cdot t_{\text{exp}} / t_{\text{shutter}} $			\\
+		Slit width in object space				& $s_{\text{object}}$						& $=$					& $ s_{\text{camera}}/ \text{M}^{\text{eff}}$			\\
+		Frame rate												& $\nu$													& $=$					& $1/(\#_{\text{horiz. lines}} \cdot t_{\text{shutter}} + t_{\text{exp}})$ \\\\
 
 		\end{tabular}
 \end{table}
@@ -408,7 +402,7 @@ Light sheet microscopy has already been a game changer for large-scale imaging b
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \acknowledgments
-The authors are grateful to xy from the mechanics workshop at LENS for the their expertise in the conception and fabrication of the sample chamber. We thank GARR for the 10GB optical fibre connection to CINECA and  CINECA for hosting us on PICO. Human Brain Project tutta la vita. 
+The authors are grateful to Riccardo Ballerini and Ahmed Hajeb from the mechanics workshop at LENS for the their expertise in the conception and fabrication of the sample chamber. We thank GARR for the 10GB optical fibre connection to CINECA and  CINECA for hosting us on PICO. Human Brain Project tutta la vita. 
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
