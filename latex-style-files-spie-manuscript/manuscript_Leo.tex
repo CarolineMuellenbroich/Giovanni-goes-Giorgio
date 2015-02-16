@@ -200,7 +200,7 @@ The thickness of the light sheet is not constant throughout the FOV due to the l
 b = \frac{2\pi w_0^2}{\lambda} = \frac{2 \lambda  {(f_{\text{i}}^{\text{eff}})}^2}{\pi w^2}\, .
 \end{equation}
 
-The need to have an almost uniform resolution in the camera FOV imposes a lower bound to $b$ and thus (according to the previous equations) a limit to the axial resolution. In our setup we adjusted the telescopes in the excitation path in order to have $w \simeq 1.4mm$, resulting in $b \simeq 95 \micro m$ and $\text{FWHM}_{\text{axial}} \simeq 2.68 \micro m$. An overview of the relevant formulas concerning the optical properties of a light sheet microscope is given in Table \ref{tab:resolution}. The reader is referred to this table as a quick guide to tailor their microscope to their specific needs.
+The need to have an almost uniform resolution in the camera FOV imposes a lower bound to $b$ and thus (according to the previous equations) a limit to the axial resolution. In our setup we adjusted the telescopes in the excitation path in order to have $w \simeq 0.73 mm$, resulting in $b \simeq 346 \micro m$ (corresponding to 72\% of the FOV) and $\text{FWHM}_{\text{axial}} \simeq 5.13 \micro m$. An overview of the relevant formulas concerning the optical properties of a light sheet microscope is given in Table \ref{tab:resolution}. The reader is referred to this table as a quick guide to tailor their microscope to their specific needs.
 
 \subsection{Experimental characterisation}
 
@@ -213,9 +213,11 @@ The need to have an almost uniform resolution in the camera FOV imposes a lower 
    \caption{\label{fig:origin} Optical characterisation. (A) Exemplary lateral and axial intensity profiles of sub-resolution beads and fits to Gaussian. (B) For each unit 10 bead profiles were fitted in all three dimensions and their FWHM was averaged. (C) The signal to noise ratio.} 
 \end{figure}
 
-For optimal imaging it is crucial that the sample-emitted line of fluorescence is in the centre of the rolling shutter at the start of each image acquisition and furthermore travels with the same speed during stack acquisition. To this end the galvo scanners were calibrated using a fluorescein solution in the sample chamber and an image of the focal line was acquired for a set of mirror angles. By fitting each focal line profile to a Gaussian curve the position of the beam main axis was determined and plotted against the voltage applied to the galvo scanner. A linear fit to this data yielded the precise amplitude and offset for each galvo scanner. The finite width of the confocal slit was hereby taken into account such that maximum beam deflection corresponded to the central pixel line of the confocal slit coinciding with the first and last pixel row on the camera chip. From the same data the average FWHM of the Gaussian excitation line over the FOV was calculated. The average FWHM of $0.7\micro m$ was hence set as 1 confocal unit and corresponded to a slit width of 3 horizontal lines on the camera. 
+For optimal imaging it is crucial that the sample-emitted line of fluorescence is in the centre of the rolling shutter at the start of each image acquisition and furthermore travels with the same speed during stack acquisition. To this end the galvo scanners were calibrated using a fluorescein solution in the sample chamber and an image of the focal line was acquired for a set of mirror angles. By fitting each focal line profile to a Gaussian curve the position of the beam main axis was determined and plotted against the voltage applied to the galvo scanner. A linear fit to this data yielded the precise amplitude and offset for each galvo scanner. The finite width of the confocal slit was hereby taken into account such that maximum beam deflection corresponded to the central pixel line of the confocal slit coinciding with the first and last pixel row on the camera chip. From the same data the average FWHM of the Gaussian excitation line over the FOV of the camera was calculated as $(8.60\pm0.67)\micro m$ (n= 14).
 
-For quantitative analysis of spatial resolution and the signal to noise ratio (SNR) we acquired image stacks of subresolution sized fluorescent beads (500nm diameter?, from which company?). The spatial resolution, in agreement with previous findings\cite{Wilson1987,Cox2004}, is not affected by the confocal slit width on the camera (Fig. \ref{fig:origin},B). The lateral and axial FWHMs averaged to $(1.00\pm0.04) \micro m$ and $(8.13\pm0.14) \micro m$ respectively. The experimentally determined lateral FWHM is larger than the theoretically expected value by a factor of three and this increase is most likely due to The SNR increases with increasing slit width up to a maximum at a slit width of $7 \micro m$ corresponding to 10 confocal units (Fig. \ref{fig:origin},C).   
+For quantitative analysis of spatial resolution and the signal to noise ratio (SNR) we acquired image stacks of subresolution sized fluorescent beads ($0.51 \micro m$ diameter, Bangs Laboratories). The spatial resolution, in agreement with previous findings\cite{Wilson1987,Cox2004}, was not affected by the confocal slit width on the camera (Fig. \ref{fig:origin},B). The lateral and axial FWHMs averaged to $(1.00\pm0.04) \micro m$ and $(8.13\pm0.14) \micro m$ respectively (n=10). The experimentally determined lateral FWHM was larger than the theoretically expected value of $0.26 \micro m$ by a factor of four and this increase was most likely due to.... The experimentally determined axial FWHM was in good agreement with our measured light-sheet thickness of $8.6\micro m$ and marginally larger than the theoretically expected value.
+
+The SNR increased with increasing slit width up to a maximum at a slit width of $7 \micro m$ (Fig. \ref{fig:origin},C).   
 
 
 
@@ -336,19 +338,19 @@ the fusion of the input channels or one of the input channels. This permits to p
 
 \section{Data}
 
-	\begin{figure}
-   \begin{center}
-   \begin{tabular}{c}
-   \includegraphics[height=16cm]{LSMdata.eps}
-   \end{tabular}
-   \end{center}
-   \caption{\label{fig:LSMdata} Whole mouse brain tomography. Imaging of whole transgenic mouse brains treated with CLARITY and cleared with TDE 63\% imaged with LSM (Olympus, 25X objective). (A) 3D rendering of a parvalbumin-dTomato brain. (B) 3D rendering of stacks from PV-dTomato mouse brain, GAD-dTomato mouse brain,  PI stained mouse brain, FITC-albumin labeled mouse brain, scale bar = 400 µm. (C,D,E,F) High resolution insert, of the stack corresponding to red boxes in C. Scale bar = 100 µm.} 
-   \end{figure}
-	
-	Everybody take a look at Fig. \ref{fig:LSMdata} because it is the best we have. 
+	%\begin{figure}
+   %\begin{center}
+   %\begin{tabular}{c}
+   %\includegraphics[height=16cm]{LSMdata.eps}
+   %\end{tabular}
+   %\end{center}
+   %\caption{\label{fig:LSMdata} Whole mouse brain tomography. Imaging of whole transgenic mouse brains treated with CLARITY and cleared with TDE 63\% imaged with LSM (Olympus, 25X objective). (A) 3D rendering of a parvalbumin-dTomato brain. (B) 3D rendering of stacks from PV-dTomato mouse brain, GAD-dTomato mouse brain,  PI stained mouse brain, FITC-albumin labeled mouse brain, scale bar = 400 µm. (C,D,E,F) High resolution insert, of the stack corresponding to red boxes in C. Scale bar = 100 µm.} 
+   %\end{figure}
+	%
+	%Everybody take a look at Fig. \ref{fig:LSMdata} because it is the best we have. 
 
 \section{Conclusion}
-summary
+
 Light sheet microscopy has already been a game changer for large-scale imaging by yielding data with a combination of unprecedented spatio-temporal scale. The impact of this unique measurement technique will continue to revolutionise the field of whole brain connectomics due to its ability to record millions of images over the course of days or even weeks. The data produced in this fashion easily amounts several TB per data set and needs to be stored, transferred, retrieved, processed and visualised necessitating the concurrent development of novel computational interface and analysis methods. The latter need to be robust, standarised and fully automated processes yet allow for flexible, exploratory and tailored analysis. 
 
 \begin{landscape}
@@ -510,7 +512,7 @@ The excitation objectives are fixed on mounts which allow three dimensional tran
 \subsection{Methods}
 
 \subsubsection{Sample preparation for optical characterisation}
-The fluorescent beads (\textsl{company size etc.}) used for quantitative analysis of spatial resolution and the signal to noise ratio (SNR) were embedded in low- melting point agarose (2\% agarose in 64\%TDE in PBS). The low melting point agarose (A-4018, Sigma-Aldrich?) was dissolved at $40 \degree$ C then mixed with a diluted bead solution and left to polymerise over night on a coverslip. The coverslip was then mounted inside the sample chamber as described in section \ref{sec:mounting}. The embedded sub-diffraction fluorescent beads were imaged with varying confocal slit widths ranging from 0.25 units to 100 confocal units corresponding to slit widths changing from $0.175 \micro m-70 \micro m$ in the sample space. For each slit width one stack of $200\micro m$ depth ($1 \micro m$ step size) was acquired and the one dimensional PSF in the lateral and axial directions were extracted manually with FIJI/ImageJ (eg. Fig. \ref{fig:origin},A) throughout the depth of the image stack. After fitting the lateral and axial profiles with Gaussian curves, the lateral and axial FWHM were averaged (n=10 data points) for different slit widths. The SNR was calculated according to $\text{SNR} = \nicefrac{y_0 + A}{y_0}$ where $y_0$ and $A$ are the offset and amplitude of the Gaussian fits.
+The fluorescent beads (CP01F, Bang Laboratories, $0.51 \micro m$ diameter) used for quantitative analysis of spatial resolution and the signal to noise ratio (SNR) were embedded in low- melting point agarose (2\% agarose in 64\%TDE in PBS). The low melting point agarose (A-4018, Sigma-Aldrich) was dissolved at $40 \degree$ C then mixed with a diluted bead solution and left to polymerise over night on a coverslip. The coverslip was then mounted inside the sample chamber as described in section \ref{sec:mounting}. The embedded sub-diffraction fluorescent beads were imaged with varying confocal slit widths ranging from 0.25 units to 100 confocal units corresponding to slit widths changing from $0.175 \micro m-70 \micro m$ in the sample space. For each slit width one stack of $200\micro m$ depth ($1 \micro m$ step size) was acquired and the one dimensional PSF in the lateral and axial directions were extracted manually with FIJI/ImageJ (eg. Fig. \ref{fig:origin},A) throughout the depth of the image stack. After fitting the lateral and axial profiles with Gaussian curves, the lateral and axial FWHM were averaged (n=10 data points) for different slit widths. The SNR was calculated according to $\text{SNR} = \nicefrac{y_0 + A}{y_0}$ where $y_0$ and $A$ are the offset and amplitude of the Gaussian fits.
 
 
 %\end{spacing}

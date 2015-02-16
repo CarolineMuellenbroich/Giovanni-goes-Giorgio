@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.7.2)  15 FEB 2015 14:37
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.7.2)  16 FEB 2015 13:17
 entering extended mode
 **manuscript_Leo.tex
 
@@ -653,17 +653,16 @@ Overfull \hbox (12.0pt too wide) in paragraph at lines 209--212
  [] 
  []
 
-[7 <C:/Users/Caroline/Documents/GitHub/Giovanni-goes-Giorgio/latex-style-files-
-spie-manuscript/origin-eps-converted-to.pdf>]
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 231.
+[7]
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 233.
 
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\omsptm.fd"
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\omsptm.fd"
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 231.
- [8]
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 233.
+ [8 <C:/Users/Caroline/Documents/GitHub/Giovanni-goes-Giorgio/latex-style-files
+-spie-manuscript/origin-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <murmex.eps>
 (epstopdf)                    date: 2015-02-04 11:22:20
 (epstopdf)                    size: 285867 bytes
@@ -672,17 +671,17 @@ Package epstopdf Info: Source file: <murmex.eps>
 (epstopdf)                    size: 39144 bytes
 (epstopdf)             Command: <epstopdf --outfile=murmex-eps-converted-to.pdf
  murmex.eps>
-(epstopdf)             \includegraphics on input line 244.
+(epstopdf)             \includegraphics on input line 246.
 Package epstopdf Info: Output file is already uptodate.
 
 <murmex-eps-converted-to.pdf, id=199, 890.32625pt x 378.41376pt>
 File: murmex-eps-converted-to.pdf Graphic file (type pdf)
 
 <use murmex-eps-converted-to.pdf>
-Package pdftex.def Info: murmex-eps-converted-to.pdf used on input line 244.
+Package pdftex.def Info: murmex-eps-converted-to.pdf used on input line 246.
 (pdftex.def)             Requested size: 469.75499pt x 199.65756pt.
 
-Overfull \hbox (12.0pt too wide) in paragraph at lines 243--246
+Overfull \hbox (12.0pt too wide) in paragraph at lines 245--248
  [] 
  []
 
@@ -696,7 +695,7 @@ Package epstopdf Info: Source file: <connectivity.eps>
 (epstopdf)                    size: 195459 bytes
 (epstopdf)             Command: <epstopdf --outfile=connectivity-eps-converted-
 to.pdf connectivity.eps>
-(epstopdf)             \includegraphics on input line 262.
+(epstopdf)             \includegraphics on input line 264.
 Package epstopdf Info: Output file is already uptodate.
 
 <connectivity-eps-converted-to.pdf, id=214, 1168.365pt x 667.49374pt>
@@ -704,15 +703,15 @@ File: connectivity-eps-converted-to.pdf Graphic file (type pdf)
 
 <use connectivity-eps-converted-to.pdf>
 Package pdftex.def Info: connectivity-eps-converted-to.pdf used on input line 2
-62.
+64.
 (pdftex.def)             Requested size: 469.75499pt x 268.37794pt.
 
-Overfull \hbox (12.0pt too wide) in paragraph at lines 261--264
+Overfull \hbox (12.0pt too wide) in paragraph at lines 263--266
  [] 
  []
 
-[10 <C:/Users/Caroline/Documents/GitHub/Giovanni-goes-Giorgio/latex-style-files
--spie-manuscript/connectivity-eps-converted-to.pdf>] [11] [12]
+[10] [11 <C:/Users/Caroline/Documents/GitHub/Giovanni-goes-Giorgio/latex-style-
+files-spie-manuscript/connectivity-eps-converted-to.pdf>] [12]
 Package epstopdf Info: Source file: <DataFlow.eps>
 (epstopdf)                    date: 2015-02-04 11:23:39
 (epstopdf)                    size: 1234489 bytes
@@ -721,49 +720,22 @@ Package epstopdf Info: Source file: <DataFlow.eps>
 (epstopdf)                    size: 533401 bytes
 (epstopdf)             Command: <epstopdf --outfile=DataFlow-eps-converted-to.p
 df DataFlow.eps>
-(epstopdf)             \includegraphics on input line 303.
+(epstopdf)             \includegraphics on input line 305.
 Package epstopdf Info: Output file is already uptodate.
 
 <DataFlow-eps-converted-to.pdf, id=240, 1611.01875pt x 473.77pt>
 File: DataFlow-eps-converted-to.pdf Graphic file (type pdf)
 
 <use DataFlow-eps-converted-to.pdf>
-Package pdftex.def Info: DataFlow-eps-converted-to.pdf used on input line 303.
+Package pdftex.def Info: DataFlow-eps-converted-to.pdf used on input line 305.
 (pdftex.def)             Requested size: 469.75499pt x 138.1416pt.
 
-Overfull \hbox (12.0pt too wide) in paragraph at lines 302--305
+Overfull \hbox (12.0pt too wide) in paragraph at lines 304--307
  [] 
  []
 
 [13 <C:/Users/Caroline/Documents/GitHub/Giovanni-goes-Giorgio/latex-style-files
--spie-manuscript/DataFlow-eps-converted-to.pdf>]
-Package epstopdf Info: Source file: <LSMdata.eps>
-(epstopdf)                    date: 2015-01-05 14:54:23
-(epstopdf)                    size: 4306517 bytes
-(epstopdf)             Output file: <LSMdata-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-01-20 11:05:42
-(epstopdf)                    size: 151723 bytes
-(epstopdf)             Command: <epstopdf --outfile=LSMdata-eps-converted-to.pd
-f LSMdata.eps>
-(epstopdf)             \includegraphics on input line 342.
-Package epstopdf Info: Output file is already uptodate.
-
-<LSMdata-eps-converted-to.pdf, id=253, 1075.01625pt x 1126.2075pt>
-File: LSMdata-eps-converted-to.pdf Graphic file (type pdf)
-
-<use LSMdata-eps-converted-to.pdf>
-Package pdftex.def Info: LSMdata-eps-converted-to.pdf used on input line 342.
-(pdftex.def)             Requested size: 434.54263pt x 455.24408pt.
-Missing character: There is no Â in font ptmr7t!
-Missing character: There is no µ in font ptmr7t!
-Missing character: There is no Â in font ptmr7t!
-Missing character: There is no µ in font ptmr7t!
-Missing character: There is no Â in font ptmr7t!
-Missing character: There is no µ in font ptmr7t!
-Missing character: There is no Â in font ptmr7t!
-Missing character: There is no µ in font ptmr7t!
- [14] [15 <C:/Users/Caroline/Documents/GitHub/Giovanni-goes-Giorgio/latex-style
--files-spie-manuscript/LSMdata-eps-converted-to.pdf>] [16]
+-spie-manuscript/DataFlow-eps-converted-to.pdf>] [14] [15]
 Missing character: There is no Â in font ptmr7t!
 Missing character: There is no ± in font ptmr7t!
 Missing character: There is no Â in font ptmr7t!
@@ -773,11 +745,11 @@ Missing character: There is no ± in font ptmr7t!
 Missing character: There is no Â in font ptmr7t!
 Missing character: There is no ± in font ptmr7t!
 
-Overfull \hbox (44.98643pt too wide) in paragraph at lines 358--379
+Overfull \hbox (44.98643pt too wide) in paragraph at lines 360--381
  [][] 
  []
 
-[17]
+[16]
 (C:\Users\Caroline\Documents\GitHub\Giovanni-goes-Giorgio\latex-style-files-spi
 e-manuscript\manuscript_Leo.brf)
 \tf@brf=\write5
@@ -787,7 +759,7 @@ Missing character: There is no “ in font ptmr7t!
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no “ in font ptmr7t!
- [18
+ [17
 
 
 ]
@@ -811,21 +783,21 @@ Package epstopdf Info: Source file: <Panel3.eps>
 (epstopdf)                    size: 271887 bytes
 (epstopdf)             Command: <epstopdf --outfile=Panel3-eps-converted-to.pdf
  Panel3.eps>
-(epstopdf)             \includegraphics on input line 489.
+(epstopdf)             \includegraphics on input line 491.
 Package epstopdf Info: Output file is already uptodate.
 
-<Panel3-eps-converted-to.pdf, id=300, 1541.76pt x 573.14125pt>
+<Panel3-eps-converted-to.pdf, id=290, 1541.76pt x 573.14125pt>
 File: Panel3-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Panel3-eps-converted-to.pdf>
-Package pdftex.def Info: Panel3-eps-converted-to.pdf used on input line 489.
+Package pdftex.def Info: Panel3-eps-converted-to.pdf used on input line 491.
 (pdftex.def)             Requested size: 469.75499pt x 174.62854pt.
 
-Overfull \hbox (12.0pt too wide) in paragraph at lines 488--491
+Overfull \hbox (12.0pt too wide) in paragraph at lines 490--493
  [] 
  []
 
-[19] [20 <C:/Users/Caroline/Documents/GitHub/Giovanni-goes-Giorgio/latex-style-
+[18] [19 <C:/Users/Caroline/Documents/GitHub/Giovanni-goes-Giorgio/latex-style-
 files-spie-manuscript/Panel3-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <Panel4.eps>
 (epstopdf)                    date: 2015-01-16 12:56:06
@@ -835,42 +807,42 @@ Package epstopdf Info: Source file: <Panel4.eps>
 (epstopdf)                    size: 321785 bytes
 (epstopdf)             Command: <epstopdf --outfile=Panel4-eps-converted-to.pdf
  Panel4.eps>
-(epstopdf)             \includegraphics on input line 502.
+(epstopdf)             \includegraphics on input line 504.
 Package epstopdf Info: Output file is already uptodate.
 
-<Panel4-eps-converted-to.pdf, id=321, 1755.55875pt x 576.1525pt>
+<Panel4-eps-converted-to.pdf, id=311, 1755.55875pt x 576.1525pt>
 File: Panel4-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Panel4-eps-converted-to.pdf>
-Package pdftex.def Info: Panel4-eps-converted-to.pdf used on input line 502.
+Package pdftex.def Info: Panel4-eps-converted-to.pdf used on input line 504.
 (pdftex.def)             Requested size: 469.75499pt x 154.16542pt.
 
-Overfull \hbox (12.0pt too wide) in paragraph at lines 501--504
+Overfull \hbox (12.0pt too wide) in paragraph at lines 503--506
  [] 
  []
 
-[21 <C:/Users/Caroline/Documents/GitHub/Giovanni-goes-Giorgio/latex-style-files
+[20 <C:/Users/Caroline/Documents/GitHub/Giovanni-goes-Giorgio/latex-style-files
 -spie-manuscript/Panel4-eps-converted-to.pdf>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 517.
- [22]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 517.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 519.
+ [21]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 519.
 
 (C:\Users\Caroline\Documents\GitHub\Giovanni-goes-Giorgio\latex-style-files-spi
 e-manuscript\manuscript_Leo.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 517.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 517.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 519.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 519.
 Package rerunfilecheck Info: File `manuscript_Leo.out' has not changed.
 (rerunfilecheck)             Checksum: 33DCEB9B9B6AEA16A3742911BFBBC946;1508.
 Package rerunfilecheck Info: File `manuscript_Leo.brf' has not changed.
-(rerunfilecheck)             Checksum: 386D8336D040285961C376A91A7422BC;762.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 517.
+(rerunfilecheck)             Checksum: 982C28B55ED2BEFB2754BB91BB4334C1;762.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 519.
  ) 
 Here is how much of TeX's memory you used:
- 8980 strings out of 493921
- 135415 string characters out of 3147274
+ 8969 strings out of 493921
+ 135207 string characters out of 3147274
  227513 words of memory out of 3000000
- 11975 multiletter control sequences out of 15000+200000
- 32339 words of font info for 77 fonts, out of 3000000 for 9000
+ 11969 multiletter control sequences out of 15000+200000
+ 30697 words of font info for 75 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  44i,17n,43p,2176b,442s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program File
@@ -883,11 +855,10 @@ sy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/euler/eurm10.pfb><C:/P
 rogram Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKT
 eX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
-1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmri
-8a.pfb>
-Output written on manuscript_Leo.pdf (22 pages, 2759084 bytes).
+1/urw/times/utmri8a.pfb>
+Output written on manuscript_Leo.pdf (21 pages, 2598601 bytes).
 PDF statistics:
- 401 PDF objects out of 1000 (max. 8388607)
- 84 named destinations out of 1000 (max. 500000)
- 222 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 387 PDF objects out of 1000 (max. 8388607)
+ 82 named destinations out of 1000 (max. 500000)
+ 217 words of extra memory for PDF output out of 10000 (max. 10000000)
 
