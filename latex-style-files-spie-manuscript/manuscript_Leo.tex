@@ -173,14 +173,7 @@ For the acquisition of whole brain data sets, we fix a clarified and fluorescent
 \section{Optical characterisation}
 
 \subsection{Theoretical considerations}
-\begin{figure}
-   \begin{center}
-   \begin{tabular}{c}
-   \includegraphics[width=\textwidth]{origin.eps}
-   \end{tabular}
-   \end{center}
-   \caption{\label{fig:origin} Optical characterisation. (A) Exemplary lateral and axial intensity profiles of sub-resolution beads and fits to Gaussian. (B) For each unit 10 bead profiles were fitted in all three dimensions and their FWHM was averaged. (C) The signal to noise ratio.} 
-\end{figure}
+
 
 The optical properties of a microscope can be summarised by the point-spread function (PSF), which is the image of a point source in object space. In particular, the radial (i.e. perpendicular to the detection axis) and axial (i.e. parallel to the detection axis) resolution of the microscope can be quantified with the full width at half-maximum (FWHM) of the PSF itself along the chosen direction (see Fig. \ref{fig:origin},A). In a light sheet microscope axial and radial resolution are determined by the numerical aperture (NA) of the illumination and detection optics respectively. The radial PSF is a standard Airy function whose FWHM is given by:
 
@@ -211,9 +204,18 @@ The need to have an almost uniform resolution in the camera FOV imposes a lower 
 
 \subsection{Experimental characterisation}
 
+\begin{figure}
+   \begin{center}
+   \begin{tabular}{c}
+   \includegraphics[width=\textwidth]{origin.eps}
+   \end{tabular}
+   \end{center}
+   \caption{\label{fig:origin} Optical characterisation. (A) Exemplary lateral and axial intensity profiles of sub-resolution beads and fits to Gaussian. (B) For each unit 10 bead profiles were fitted in all three dimensions and their FWHM was averaged. (C) The signal to noise ratio.} 
+\end{figure}
+
 For optimal imaging it is crucial that the sample-emitted line of fluorescence is in the centre of the rolling shutter at the start of each image acquisition and furthermore travels with the same speed during stack acquisition. To this end the galvo scanners were calibrated using a fluorescein solution in the sample chamber and an image of the focal line was acquired for a set of mirror angles. By fitting each focal line profile to a Gaussian curve the position of the beam main axis was determined and plotted against the voltage applied to the galvo scanner. A linear fit to this data yielded the precise amplitude and offset for each galvo scanner. The finite width of the confocal slit was hereby taken into account such that maximum beam deflection corresponded to the central pixel line of the confocal slit coinciding with the first and last pixel row on the camera chip. From the same data the average FWHM of the Gaussian excitation line over the FOV was calculated. The average FWHM of $0.7\micro m$ was hence set as 1 confocal unit and corresponded to a slit width of 3 horizontal lines on the camera. 
 
-For quantitative analysis of spatial resolution and the signal to noise ratio (SNR) we acquired image stacks of subresolution sized fluorescent beads (500nm diameter?, from which company?). The spatial resolution, in agreement with previous findings\cite{Wilson1987,Cox2004}, is not affected by the confocal slit widths on the camera (Fig. \ref{fig:origin},B). The lateral and axial FWHMs averaged to $(1.00\pm0.04) \micro m$ and $(8.13\pm0.14) \micro m$ respectively. The SNR increases with increasing slit width up to a maximum at a slit width of $7 \micro m$ corresponding to 10 confocal units (Fig. \ref{fig:origin},C).   
+For quantitative analysis of spatial resolution and the signal to noise ratio (SNR) we acquired image stacks of subresolution sized fluorescent beads (500nm diameter?, from which company?). The spatial resolution, in agreement with previous findings\cite{Wilson1987,Cox2004}, is not affected by the confocal slit width on the camera (Fig. \ref{fig:origin},B). The lateral and axial FWHMs averaged to $(1.00\pm0.04) \micro m$ and $(8.13\pm0.14) \micro m$ respectively. The experimentally determined lateral FWHM is larger than the theoretically expected value by a factor of three and this increase is most likely due to The SNR increases with increasing slit width up to a maximum at a slit width of $7 \micro m$ corresponding to 10 confocal units (Fig. \ref{fig:origin},C).   
 
 
 
@@ -465,7 +467,7 @@ The authors are grateful to Riccardo Ballerini and Ahmed Hajeb from the mechanic
 \end{thebibliography}
 
 
-\listoffigures
+%\listoffigures
 %pannel1: optical pathway, drawing images from chamber, sample mirror photos
 %pannel2: software scheme
 %panel3: hardware connection scheme
@@ -475,7 +477,7 @@ The authors are grateful to Riccardo Ballerini and Ahmed Hajeb from the mechanic
 
 
 
-\listoftables
+%\listoftables
 
 \section{Supplementary information}
 
@@ -507,6 +509,7 @@ The excitation objectives are fixed on mounts which allow three dimensional tran
 
 \subsection{Methods}
 
+\subsubsection{Sample preparation for optical characterisation}
 The fluorescent beads (\textsl{company size etc.}) used for quantitative analysis of spatial resolution and the signal to noise ratio (SNR) were embedded in low- melting point agarose (2\% agarose in 64\%TDE in PBS). The low melting point agarose (A-4018, Sigma-Aldrich?) was dissolved at $40 \degree$ C then mixed with a diluted bead solution and left to polymerise over night on a coverslip. The coverslip was then mounted inside the sample chamber as described in section \ref{sec:mounting}. The embedded sub-diffraction fluorescent beads were imaged with varying confocal slit widths ranging from 0.25 units to 100 confocal units corresponding to slit widths changing from $0.175 \micro m-70 \micro m$ in the sample space. For each slit width one stack of $200\micro m$ depth ($1 \micro m$ step size) was acquired and the one dimensional PSF in the lateral and axial directions were extracted manually with FIJI/ImageJ (eg. Fig. \ref{fig:origin},A) throughout the depth of the image stack. After fitting the lateral and axial profiles with Gaussian curves, the lateral and axial FWHM were averaged (n=10 data points) for different slit widths. The SNR was calculated according to $\text{SNR} = \nicefrac{y_0 + A}{y_0}$ where $y_0$ and $A$ are the offset and amplitude of the Gaussian fits.
 
 
