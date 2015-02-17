@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.7.2)  16 FEB 2015 18:34
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.7.2)  17 FEB 2015 11:59
 entering extended mode
 **manuscript_snellendo.tex
 
@@ -655,22 +655,22 @@ Overfull \hbox (12.0pt too wide) in paragraph at lines 206--209
 
 [6]
 Package epstopdf Info: Source file: <connectivity.eps>
-(epstopdf)                    date: 2015-02-10 22:30:42
-(epstopdf)                    size: 2060856 bytes
+(epstopdf)                    date: 2015-02-17 09:48:34
+(epstopdf)                    size: 3143036 bytes
 (epstopdf)             Output file: <connectivity-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-02-10 22:31:29
-(epstopdf)                    size: 195459 bytes
+(epstopdf)                    date: 2015-02-17 10:07:53
+(epstopdf)                    size: 262792 bytes
 (epstopdf)             Command: <epstopdf --outfile=connectivity-eps-converted-
 to.pdf connectivity.eps>
 (epstopdf)             \includegraphics on input line 225.
 Package epstopdf Info: Output file is already uptodate.
- <connectivity-eps-converted-to.pdf, id=182, 1168.365pt x 667.49374pt>
+ <connectivity-eps-converted-to.pdf, id=182, 1283.79625pt x 727.71875pt>
 File: connectivity-eps-converted-to.pdf Graphic file (type pdf)
 
 <use connectivity-eps-converted-to.pdf>
 Package pdftex.def Info: connectivity-eps-converted-to.pdf used on input line 2
 25.
-(pdftex.def)             Requested size: 469.75499pt x 268.37794pt.
+(pdftex.def)             Requested size: 469.75499pt x 266.27582pt.
 
 Overfull \hbox (12.0pt too wide) in paragraph at lines 224--227
  [] 
@@ -710,8 +710,32 @@ Overfull \hbox (12.0pt too wide) in paragraph at lines 257--260
  [] 
  []
 
+Package epstopdf Info: Source file: <data_panel.eps>
+(epstopdf)                    date: 2015-02-17 10:05:36
+(epstopdf)                    size: 6787211 bytes
+(epstopdf)             Output file: <data_panel-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-02-17 10:08:16
+(epstopdf)                    size: 201328 bytes
+(epstopdf)             Command: <epstopdf --outfile=data_panel-eps-converted-to
+.pdf data_panel.eps>
+(epstopdf)             \includegraphics on input line 294.
+Package epstopdf Info: Output file is already uptodate.
+<data_panel-eps-converted-to.pdf, id=215, 1227.58624pt x 584.1825pt>
+File: data_panel-eps-converted-to.pdf Graphic file (type pdf)
+
+<use data_panel-eps-converted-to.pdf>
+Package pdftex.def Info: data_panel-eps-converted-to.pdf used on input line 294
+.
+(pdftex.def)             Requested size: 469.75499pt x 223.54266pt.
+
+Overfull \hbox (12.0pt too wide) in paragraph at lines 293--296
+ [] 
+ []
+
 [10 <C:/Users/Caroline/Documents/GitHub/Giovanni-goes-Giorgio/latex-style-files
--spie-manuscript/DataFlow-eps-converted-to.pdf>] [11]
+-spie-manuscript/DataFlow-eps-converted-to.pdf>] [11 <C:/Users/Caroline/Documen
+ts/GitHub/Giovanni-goes-Giorgio/latex-style-files-spie-manuscript/data_panel-ep
+s-converted-to.pdf>]
 Missing character: There is no Â in font ptmr7t!
 Missing character: There is no ± in font ptmr7t!
 Missing character: There is no Â in font ptmr7t!
@@ -750,7 +774,7 @@ Missing character: There is no “ in font ptmr7t!
  [13
 
 
-]
+] [14]
 Package epstopdf Info: Source file: <Panel3.eps>
 (epstopdf)                    date: 2015-01-16 14:35:39
 (epstopdf)                    size: 6319552 bytes
@@ -762,7 +786,7 @@ Package epstopdf Info: Source file: <Panel3.eps>
 (epstopdf)             \includegraphics on input line 415.
 Package epstopdf Info: Output file is already uptodate.
 
-<Panel3-eps-converted-to.pdf, id=256, 1541.76pt x 573.14125pt>
+<Panel3-eps-converted-to.pdf, id=268, 1541.76pt x 573.14125pt>
 File: Panel3-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Panel3-eps-converted-to.pdf>
@@ -773,7 +797,7 @@ Overfull \hbox (12.0pt too wide) in paragraph at lines 414--417
  [] 
  []
 
-[14 <C:/Users/Caroline/Documents/GitHub/Giovanni-goes-Giorgio/latex-style-files
+[15 <C:/Users/Caroline/Documents/GitHub/Giovanni-goes-Giorgio/latex-style-files
 -spie-manuscript/Panel3-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <Panel4.eps>
 (epstopdf)                    date: 2015-01-16 12:56:06
@@ -786,7 +810,7 @@ Package epstopdf Info: Source file: <Panel4.eps>
 (epstopdf)             \includegraphics on input line 428.
 Package epstopdf Info: Output file is already uptodate.
 
-<Panel4-eps-converted-to.pdf, id=271, 1755.55875pt x 576.1525pt>
+<Panel4-eps-converted-to.pdf, id=281, 1755.55875pt x 576.1525pt>
 File: Panel4-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Panel4-eps-converted-to.pdf>
@@ -797,7 +821,7 @@ Overfull \hbox (12.0pt too wide) in paragraph at lines 427--430
  [] 
  []
 
-[15 <C:/Users/Caroline/Documents/GitHub/Giovanni-goes-Giorgio/latex-style-files
+[16 <C:/Users/Caroline/Documents/GitHub/Giovanni-goes-Giorgio/latex-style-files
 -spie-manuscript/Panel4-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <murmex.eps>
 (epstopdf)                    date: 2015-02-04 11:22:20
@@ -810,7 +834,7 @@ Package epstopdf Info: Source file: <murmex.eps>
 (epstopdf)             \includegraphics on input line 464.
 Package epstopdf Info: Output file is already uptodate.
 
-<murmex-eps-converted-to.pdf, id=287, 890.32625pt x 378.41376pt>
+<murmex-eps-converted-to.pdf, id=297, 890.32625pt x 378.41376pt>
 File: murmex-eps-converted-to.pdf Graphic file (type pdf)
 
 <use murmex-eps-converted-to.pdf>
@@ -821,10 +845,10 @@ Overfull \hbox (12.0pt too wide) in paragraph at lines 463--466
  [] 
  []
 
-[16] [17 <C:/Users/Caroline/Documents/GitHub/Giovanni-goes-Giorgio/latex-style-
+[17] [18 <C:/Users/Caroline/Documents/GitHub/Giovanni-goes-Giorgio/latex-style-
 files-spie-manuscript/murmex-eps-converted-to.pdf>]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 516.
- [18] [19]
+ [19] [20]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 516.
 
 (C:\Users\Caroline\Documents\GitHub\Giovanni-goes-Giorgio\latex-style-files-spi
@@ -834,14 +858,14 @@ Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 516.
 Package rerunfilecheck Info: File `manuscript_snellendo.out' has not changed.
 (rerunfilecheck)             Checksum: 204ED8F49BC17F2919DB7E01D92EBB47;1671.
 Package rerunfilecheck Info: File `manuscript_snellendo.brf' has not changed.
-(rerunfilecheck)             Checksum: 3397FC3CCC19A918D4739D4B08BC9933;527.
+(rerunfilecheck)             Checksum: 3E50DC2209BB9888A0EACC32451440AC;527.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 516.
  ) 
 Here is how much of TeX's memory you used:
- 8968 strings out of 493921
- 135351 string characters out of 3147274
- 224513 words of memory out of 3000000
- 11971 multiletter control sequences out of 15000+200000
+ 8976 strings out of 493921
+ 135545 string characters out of 3147274
+ 223513 words of memory out of 3000000
+ 11976 multiletter control sequences out of 15000+200000
  30697 words of font info for 75 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  44i,17n,43p,1901b,438s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -856,9 +880,9 @@ sy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
 rogram Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKT
 eX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
 1/urw/times/utmri8a.pfb>
-Output written on manuscript_snellendo.pdf (19 pages, 2563886 bytes).
+Output written on manuscript_snellendo.pdf (20 pages, 2832486 bytes).
 PDF statistics:
- 371 PDF objects out of 1000 (max. 8388607)
- 79 named destinations out of 1000 (max. 500000)
- 233 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 381 PDF objects out of 1000 (max. 8388607)
+ 81 named destinations out of 1000 (max. 500000)
+ 238 words of extra memory for PDF output out of 10000 (max. 10000000)
 
