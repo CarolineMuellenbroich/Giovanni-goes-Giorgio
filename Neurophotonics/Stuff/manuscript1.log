@@ -1,0 +1,22 @@
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdftex 2014.3.27)  3 FEB 2015 12:06
+entering extended mode
+**C:/Users/Ludo/Lavoro/Articoli/Neurophotonics_SPIM/github_Caroline/Giovanni-go
+es-Giorgio/latex-style-files-spie-manuscript/manuscript1.2_Ludo
+
+(C:/Users/Ludo/Lavoro/Articoli/Neurophotonics_SPIM/github_Caroline/Giovanni-goe
+s-Giorgio/latex-style-files-spie-manuscript/manuscript1.2_Ludo
+! Undefined control sequence.
+l.18 \documentclass
+                   [12pt]{spieman}  %>>> 12pt font mandatory; use this for U...
+
+? 
+! Undefined control sequence.
+l.26 \usepackage
+                []{graphicx}
+? 
+! Emergency stop.
+l.26 \usepackage
+                []{graphicx}
+End of file on the terminal!
+
+!  ==> Fatal error occurred, no output PDF file produced!
