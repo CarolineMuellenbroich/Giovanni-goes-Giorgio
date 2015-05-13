@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.7.2)  27 MAR 2015 10:25
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.7.2)  29 APR 2015 15:17
 entering extended mode
 **manuscript_submission.tex
 
-(C:\Users\Caroline\Documents\GitHub\Giovanni-goes-Giorgio\latex-style-files-spi
-e-manuscript\manuscript_submission.tex
+("C:\Users\Caroline\Documents\GitHub\Giovanni-goes-Giorgio\Neurophotonics\Submi
+tted files\manuscript_submission.tex"
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -16,8 +16,8 @@ ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
 an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
 ishmax, welsh, loaded.
 
-(C:\Users\Caroline\Documents\GitHub\Giovanni-goes-Giorgio\latex-style-files-spi
-e-manuscript\spieman.cls
+("C:\Users\Caroline\Documents\GitHub\Giovanni-goes-Giorgio\Neurophotonics\Submi
+tted files\spieman.cls"
 Document Class: spieman 2006/09/27 v1.00 SPIE manuscript class
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\article.cls"
 Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
@@ -487,8 +487,8 @@ LaTeX Warning: Unused global option(s):
     [12pt].
 
 
-(C:\Users\Caroline\Documents\GitHub\Giovanni-goes-Giorgio\latex-style-files-spi
-e-manuscript\manuscript_submission.aux)
+("C:\Users\Caroline\Documents\GitHub\Giovanni-goes-Giorgio\Neurophotonics\Submi
+tted files\manuscript_submission.aux")
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 75.
 LaTeX Font Info:    ... okay on input line 75.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 75.
@@ -551,10 +551,10 @@ LaTeX Info: Redefining \ref on input line 75.
 LaTeX Info: Redefining \pageref on input line 75.
 LaTeX Info: Redefining \nameref on input line 75.
 
-(C:\Users\Caroline\Documents\GitHub\Giovanni-goes-Giorgio\latex-style-files-spi
-e-manuscript\manuscript_submission.out)
-(C:\Users\Caroline\Documents\GitHub\Giovanni-goes-Giorgio\latex-style-files-spi
-e-manuscript\manuscript_submission.out)
+("C:\Users\Caroline\Documents\GitHub\Giovanni-goes-Giorgio\Neurophotonics\Submi
+tted files\manuscript_submission.out")
+("C:\Users\Caroline\Documents\GitHub\Giovanni-goes-Giorgio\Neurophotonics\Submi
+tted files\manuscript_submission.out")
 \@outlinefile=\write4
 
 ptm-font_in_spiemancls
@@ -584,10 +584,10 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 {C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
 Package epstopdf Info: Source file: <panel1.eps>
-(epstopdf)                    date: 2015-03-25 12:43:06
+(epstopdf)                    date: 2015-03-25 13:43:06
 (epstopdf)                    size: 2453655 bytes
 (epstopdf)             Output file: <panel1-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-03-27 10:08:50
+(epstopdf)                    date: 2015-03-27 11:08:50
 (epstopdf)                    size: 445260 bytes
 (epstopdf)             Command: <epstopdf --outfile=panel1-eps-converted-to.pdf
  panel1.eps>
@@ -611,13 +611,13 @@ Overfull \hbox (17.2482pt too wide) in paragraph at lines 114--115
  with five lin-early po-larised, continuous-
  []
 
-[2] [3 <C:/Users/Caroline/Documents/GitHub/Giovanni-goes-Giorgio/latex-style-fi
-les-spie-manuscript/panel1-eps-converted-to.pdf>]
+[2] [3 <C:/Users/Caroline/Documents/GitHub/Giovanni-goes-Giorgio/Neurophotonics
+/Submitted files/panel1-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <panel2.eps>
-(epstopdf)                    date: 2015-03-25 12:43:06
+(epstopdf)                    date: 2015-03-25 13:43:06
 (epstopdf)                    size: 10252309 bytes
 (epstopdf)             Output file: <panel2-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-03-27 10:08:58
+(epstopdf)                    date: 2015-03-27 11:08:58
 (epstopdf)                    size: 370449 bytes
 (epstopdf)             Command: <epstopdf --outfile=panel2-eps-converted-to.pdf
  panel2.eps>
@@ -635,13 +635,13 @@ Overfull \hbox (12.0pt too wide) in paragraph at lines 134--137
  [] 
  []
 
-[4] [5 <C:/Users/Caroline/Documents/GitHub/Giovanni-goes-Giorgio/latex-style-fi
-les-spie-manuscript/panel2-eps-converted-to.pdf>] [6]
+[4] [5 <C:/Users/Caroline/Documents/GitHub/Giovanni-goes-Giorgio/Neurophotonics
+/Submitted files/panel2-eps-converted-to.pdf>] [6]
 Package epstopdf Info: Source file: <panel3.eps>
-(epstopdf)                    date: 2015-03-25 12:42:40
+(epstopdf)                    date: 2015-03-25 13:42:40
 (epstopdf)                    size: 1562223 bytes
 (epstopdf)             Output file: <panel3-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-03-27 10:24:55
+(epstopdf)                    date: 2015-03-27 11:24:55
 (epstopdf)                    size: 190349 bytes
 (epstopdf)             Command: <epstopdf --outfile=panel3-eps-converted-to.pdf
  panel3.eps>
@@ -659,13 +659,13 @@ Overfull \hbox (12.0pt too wide) in paragraph at lines 178--181
  [] 
  []
 
-[7 <C:/Users/Caroline/Documents/GitHub/Giovanni-goes-Giorgio/latex-style-files-
-spie-manuscript/panel3-eps-converted-to.pdf>]
+[7 <C:/Users/Caroline/Documents/GitHub/Giovanni-goes-Giorgio/Neurophotonics/Sub
+mitted files/panel3-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <panel4.eps>
-(epstopdf)                    date: 2015-03-25 12:42:40
+(epstopdf)                    date: 2015-03-25 13:42:40
 (epstopdf)                    size: 3188653 bytes
 (epstopdf)             Output file: <panel4-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-03-27 10:25:00
+(epstopdf)                    date: 2015-03-27 11:25:00
 (epstopdf)                    size: 264175 bytes
 (epstopdf)             Command: <epstopdf --outfile=panel4-eps-converted-to.pdf
  panel4.eps>
@@ -683,13 +683,13 @@ Overfull \hbox (12.0pt too wide) in paragraph at lines 207--210
  [] 
  []
 
-[8] [9 <C:/Users/Caroline/Documents/GitHub/Giovanni-goes-Giorgio/latex-style-fi
-les-spie-manuscript/panel4-eps-converted-to.pdf>]
+[8] [9 <C:/Users/Caroline/Documents/GitHub/Giovanni-goes-Giorgio/Neurophotonics
+/Submitted files/panel4-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <panel5.eps>
-(epstopdf)                    date: 2015-03-25 12:43:24
+(epstopdf)                    date: 2015-03-25 13:43:24
 (epstopdf)                    size: 1440449 bytes
 (epstopdf)             Output file: <panel5-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-03-27 10:09:02
+(epstopdf)                    date: 2015-03-27 11:09:02
 (epstopdf)                    size: 215858 bytes
 (epstopdf)             Command: <epstopdf --outfile=panel5-eps-converted-to.pdf
  panel5.eps>
@@ -707,8 +707,8 @@ Overfull \hbox (12.0pt too wide) in paragraph at lines 233--236
  [] 
  []
 
-[10 <C:/Users/Caroline/Documents/GitHub/Giovanni-goes-Giorgio/latex-style-files
--spie-manuscript/panel5-eps-converted-to.pdf>]
+[10 <C:/Users/Caroline/Documents/GitHub/Giovanni-goes-Giorgio/Neurophotonics/Su
+bmitted files/panel5-eps-converted-to.pdf>]
 LaTeX Font Info:    Try loading font information for OMS+ptm on input line 248.
 
 
@@ -717,30 +717,30 @@ File: omsptm.fd
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 248.
-Package epstopdf Info: Source file: <panel6.eps>
-(epstopdf)                    date: 2015-03-25 12:43:09
-(epstopdf)                    size: 6878135 bytes
-(epstopdf)             Output file: <panel6-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-03-27 10:09:10
-(epstopdf)                    size: 201328 bytes
-(epstopdf)             Command: <epstopdf --outfile=panel6-eps-converted-to.pdf
- panel6.eps>
+Package epstopdf Info: Source file: <panel6a.eps>
+(epstopdf)                    date: 2015-04-29 15:07:49
+(epstopdf)                    size: 5602700 bytes
+(epstopdf)             Output file: <panel6a-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-04-29 15:12:45
+(epstopdf)                    size: 197311 bytes
+(epstopdf)             Command: <epstopdf --outfile=panel6a-eps-converted-to.pd
+f panel6a.eps>
 (epstopdf)             \includegraphics on input line 280.
 Package epstopdf Info: Output file is already uptodate.
 
-<panel6-eps-converted-to.pdf, id=244, 1227.58624pt x 584.1825pt>
-File: panel6-eps-converted-to.pdf Graphic file (type pdf)
+<panel6a-eps-converted-to.pdf, id=244, 1261.71375pt x 584.1825pt>
+File: panel6a-eps-converted-to.pdf Graphic file (type pdf)
 
-<use panel6-eps-converted-to.pdf>
-Package pdftex.def Info: panel6-eps-converted-to.pdf used on input line 280.
-(pdftex.def)             Requested size: 469.75499pt x 223.54266pt.
+<use panel6a-eps-converted-to.pdf>
+Package pdftex.def Info: panel6a-eps-converted-to.pdf used on input line 280.
+(pdftex.def)             Requested size: 469.75499pt x 217.49904pt.
 
 Overfull \hbox (12.0pt too wide) in paragraph at lines 279--282
  [] 
  []
 
-[11] [12 <C:/Users/Caroline/Documents/GitHub/Giovanni-goes-Giorgio/latex-style-
-files-spie-manuscript/panel6-eps-converted-to.pdf>] [13] [14]
+[11] [12 <C:/Users/Caroline/Documents/GitHub/Giovanni-goes-Giorgio/Neurophotoni
+cs/Submitted files/panel6a-eps-converted-to.pdf>] [13] [14]
 Missing character: There is no Â in font ptmr7t!
 Missing character: There is no ± in font ptmr7t!
 Missing character: There is no Â in font ptmr7t!
@@ -755,8 +755,8 @@ Overfull \hbox (44.98643pt too wide) in paragraph at lines 309--330
  []
 
 [15]
-(C:\Users\Caroline\Documents\GitHub\Giovanni-goes-Giorgio\latex-style-files-spi
-e-manuscript\manuscript_submission.brf)
+("C:\Users\Caroline\Documents\GitHub\Giovanni-goes-Giorgio\Neurophotonics\Submi
+tted files\manuscript_submission.brf")
 \tf@brf=\write5
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
@@ -818,10 +818,10 @@ Missing character: There is no € in font ptmr7t!
 Missing character: There is no “ in font ptmr7t!
  [17] [18]
 Package epstopdf Info: Source file: <SOI1.eps>
-(epstopdf)                    date: 2015-03-25 12:43:15
+(epstopdf)                    date: 2015-03-25 13:43:15
 (epstopdf)                    size: 6404292 bytes
 (epstopdf)             Output file: <SOI1-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-03-27 10:09:20
+(epstopdf)                    date: 2015-03-27 11:09:20
 (epstopdf)                    size: 271887 bytes
 (epstopdf)             Command: <epstopdf --outfile=SOI1-eps-converted-to.pdf S
 OI1.eps>
@@ -840,10 +840,10 @@ Overfull \hbox (12.0pt too wide) in paragraph at lines 429--432
  []
 
 Package epstopdf Info: Source file: <SOI2.eps>
-(epstopdf)                    date: 2015-03-25 12:43:13
+(epstopdf)                    date: 2015-03-25 13:43:13
 (epstopdf)                    size: 946040 bytes
 (epstopdf)             Output file: <SOI2-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-03-27 10:09:25
+(epstopdf)                    date: 2015-03-27 11:09:25
 (epstopdf)                    size: 321785 bytes
 (epstopdf)             Command: <epstopdf --outfile=SOI2-eps-converted-to.pdf S
 OI2.eps>
@@ -860,15 +860,15 @@ Overfull \hbox (12.0pt too wide) in paragraph at lines 442--445
  [] 
  []
 
-[19 <C:/Users/Caroline/Documents/GitHub/Giovanni-goes-Giorgio/latex-style-files
--spie-manuscript/SOI1-eps-converted-to.pdf>] [20 <C:/Users/Caroline/Documents/G
-itHub/Giovanni-goes-Giorgio/latex-style-files-spie-manuscript/SOI2-eps-converte
-d-to.pdf>]
+[19 <C:/Users/Caroline/Documents/GitHub/Giovanni-goes-Giorgio/Neurophotonics/Su
+bmitted files/SOI1-eps-converted-to.pdf>] [20 <C:/Users/Caroline/Documents/GitH
+ub/Giovanni-goes-Giorgio/Neurophotonics/Submitted files/SOI2-eps-converted-to.p
+df>]
 Package epstopdf Info: Source file: <SOI3.eps>
-(epstopdf)                    date: 2015-03-25 12:42:50
+(epstopdf)                    date: 2015-03-25 13:42:50
 (epstopdf)                    size: 290510 bytes
 (epstopdf)             Output file: <SOI3-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-03-27 10:09:27
+(epstopdf)                    date: 2015-03-27 11:09:27
 (epstopdf)                    size: 39144 bytes
 (epstopdf)             Command: <epstopdf --outfile=SOI3-eps-converted-to.pdf S
 OI3.eps>
@@ -887,12 +887,12 @@ Overfull \hbox (12.0pt too wide) in paragraph at lines 465--468
 
 [21]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 513.
- [22 <C:/Users/Caroline/Documents/GitHub/Giovanni-goes-Giorgio/latex-style-file
-s-spie-manuscript/SOI3-eps-converted-to.pdf>] [23]
+ [22 <C:/Users/Caroline/Documents/GitHub/Giovanni-goes-Giorgio/Neurophotonics/S
+ubmitted files/SOI3-eps-converted-to.pdf>] [23]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 513.
 
-(C:\Users\Caroline\Documents\GitHub\Giovanni-goes-Giorgio\latex-style-files-spi
-e-manuscript\manuscript_submission.aux)
+("C:\Users\Caroline\Documents\GitHub\Giovanni-goes-Giorgio\Neurophotonics\Submi
+tted files\manuscript_submission.aux")
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 513.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 513.
 Package rerunfilecheck Info: File `manuscript_submission.out' has not changed.
@@ -903,7 +903,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 513.
  ) 
 Here is how much of TeX's memory you used:
  9038 strings out of 493921
- 136292 string characters out of 3147274
+ 136252 string characters out of 3147274
  225513 words of memory out of 3000000
  12024 multiletter control sequences out of 15000+200000
  30697 words of font info for 75 fonts, out of 3000000 for 9000
@@ -920,7 +920,7 @@ sy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
 rogram Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKT
 eX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
 1/urw/times/utmri8a.pfb>
-Output written on manuscript_submission.pdf (23 pages, 2537372 bytes).
+Output written on manuscript_submission.pdf (23 pages, 2533412 bytes).
 PDF statistics:
  462 PDF objects out of 1000 (max. 8388607)
  95 named destinations out of 1000 (max. 500000)
